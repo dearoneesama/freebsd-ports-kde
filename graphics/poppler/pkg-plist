@@ -76,6 +76,7 @@ include/poppler/UnicodeMapTables.h
 include/poppler/UnicodeTypeTable.h
 include/poppler/ViewerPreferences.h
 include/poppler/XRef.h
+include/poppler/cpp/poppler-destination.h
 include/poppler/cpp/poppler-document.h
 include/poppler/cpp/poppler-embedded-file.h
 include/poppler/cpp/poppler-font.h
@@ -131,10 +132,10 @@ include/poppler/splash/SplashXPath.h
 include/poppler/splash/SplashXPathScanner.h
 lib/libpoppler-cpp.so
 lib/libpoppler-cpp.so.0
-lib/libpoppler-cpp.so.0.6.0
+lib/libpoppler-cpp.so.0.7.0
 lib/libpoppler.so
-lib/libpoppler.so.84
-lib/libpoppler.so.84.0.0
+lib/libpoppler.so.85
+lib/libpoppler.so.85.0.0
 libdata/pkgconfig/poppler-cairo.pc
 libdata/pkgconfig/poppler-cpp.pc
 libdata/pkgconfig/poppler-splash.pc
