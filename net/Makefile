@@ -1037,6 +1037,7 @@
     SUBDIR += py-gntp
     SUBDIR += py-gspread
     SUBDIR += py-gspreadsheet
+    SUBDIR += py-h11
     SUBDIR += py-haproxy-log-analysis
     SUBDIR += py-haproxyctl
     SUBDIR += py-httpstat
@@ -1142,6 +1143,7 @@
     SUBDIR += py-urllib3
     SUBDIR += py-wmi-query
     SUBDIR += py-wolframalpha
+    SUBDIR += py-wsproto
     SUBDIR += py-xmlrpc
     SUBDIR += py-zeroconf
     SUBDIR += py-zope.proxy
