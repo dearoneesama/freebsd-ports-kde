@@ -418,6 +418,7 @@
     SUBDIR += libcss
     SUBDIR += libcsv
     SUBDIR += libcue
+    SUBDIR += libcyaml
     SUBDIR += libdiff
     SUBDIR += libe-book
     SUBDIR += libebml
