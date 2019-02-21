@@ -7,7 +7,6 @@
     SUBDIR += Xaw3d
     SUBDIR += Xmt
     SUBDIR += attica
-    SUBDIR += bakery
     SUBDIR += blt
     SUBDIR += bwidget
     SUBDIR += c++-gtk-utils
@@ -103,6 +102,7 @@
     SUBDIR += libgnomeui
     SUBDIR += libgnomeui-reference
     SUBDIR += libgnomeuimm26
+    SUBDIR += libhandy
     SUBDIR += libsexy
     SUBDIR += libsexymm
     SUBDIR += libunique3
