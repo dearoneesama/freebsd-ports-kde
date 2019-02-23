@@ -1910,7 +1910,6 @@
     SUBDIR += qt4-webkit
     SUBDIR += qt5-webchannel
     SUBDIR += qt5-webengine
-    SUBDIR += qt5-webglplugin
     SUBDIR += qt5-webkit
     SUBDIR += qt5-websockets
     SUBDIR += qt5-websockets-qml
