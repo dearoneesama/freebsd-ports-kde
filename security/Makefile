@@ -206,7 +206,6 @@
     SUBDIR += gtkpasman
     SUBDIR += gwee
     SUBDIR += hackbot
-    SUBDIR += hamachi
     SUBDIR += hardening-check
     SUBDIR += hashcat
     SUBDIR += hashcat-legacy
@@ -215,6 +214,7 @@
     SUBDIR += hitch
     SUBDIR += hlfl
     SUBDIR += hmap
+    SUBDIR += hockeypuck
     SUBDIR += honeybadger
     SUBDIR += honggfuzz
     SUBDIR += hotssh
@@ -290,7 +290,6 @@
     SUBDIR += john
     SUBDIR += kbfs
     SUBDIR += kbfsd
-    SUBDIR += kc
     SUBDIR += kc24
     SUBDIR += kdbx-viewer
     SUBDIR += kedpm
@@ -335,6 +334,7 @@
     SUBDIR += libcryptui
     SUBDIR += libdecaf
     SUBDIR += libecc
+    SUBDIR += libfido2
     SUBDIR += libfprint
     SUBDIR += libgcrypt
     SUBDIR += libgnome-keyring
@@ -1257,6 +1257,7 @@
     SUBDIR += snuffleupagus
     SUBDIR += softether
     SUBDIR += softether-devel
+    SUBDIR += softether5
     SUBDIR += softhsm
     SUBDIR += softhsm2
     SUBDIR += sops
@@ -1274,6 +1275,8 @@
     SUBDIR += sshguard
     SUBDIR += sshpass
     SUBDIR += ssl-admin
+    SUBDIR += ssllabs-scan
+    SUBDIR += sslproxy
     SUBDIR += sslscan
     SUBDIR += sslsniffer
     SUBDIR += sslsplit

@@ -375,7 +375,6 @@
     SUBDIR += cpputest
     SUBDIR += cproto
     SUBDIR += cpu_features
-    SUBDIR += cpuflags
     SUBDIR += cquery
     SUBDIR += cram
     SUBDIR += creduce
@@ -506,7 +505,6 @@
     SUBDIR += editline
     SUBDIR += efivar
     SUBDIR += efl
-    SUBDIR += eggdbus
     SUBDIR += egypt
     SUBDIR += eiffelstudio
     SUBDIR += elf
@@ -541,7 +539,6 @@
     SUBDIR += elixir-gettext
     SUBDIR += elixir-hex
     SUBDIR += elixir-inflex
-    SUBDIR += elixir-lager_logger
     SUBDIR += elixir-libring
     SUBDIR += elixir-make
     SUBDIR += elixir-math
@@ -878,7 +875,6 @@
     SUBDIR += gperf
     SUBDIR += gpm
     SUBDIR += gprbuild
-    SUBDIR += gpsim
     SUBDIR += gputils
     SUBDIR += gradle
     SUBDIR += gradle4
@@ -924,7 +920,6 @@
     SUBDIR += hg-git
     SUBDIR += hgreviewboard
     SUBDIR += hgsvn
-    SUBDIR += hgview
     SUBDIR += hhdate
     SUBDIR += highlighterkit
     SUBDIR += hive
@@ -933,6 +928,7 @@
     SUBDIR += horde-whups
     SUBDIR += hp48cc
     SUBDIR += hp48xgcc
+    SUBDIR += hpx
     SUBDIR += hs-Boolean
     SUBDIR += hs-BoundedChan
     SUBDIR += hs-ConfigFile
@@ -1457,7 +1453,6 @@
     SUBDIR += libfwsi
     SUBDIR += libg19
     SUBDIR += libg19draw
-    SUBDIR += libgalago
     SUBDIR += libgamepad
     SUBDIR += libgdata
     SUBDIR += libgee
@@ -1685,6 +1680,7 @@
     SUBDIR += liteide
     SUBDIR += llbuild
     SUBDIR += llnextgen
+    SUBDIR += llvm
     SUBDIR += llvm-cheri
     SUBDIR += llvm-devel
     SUBDIR += llvm35
@@ -1698,6 +1694,7 @@
     SUBDIR += lmdbg
     SUBDIR += lndir
     SUBDIR += lnphost
+    SUBDIR += loccount
     SUBDIR += lockfree-malloc
     SUBDIR += log4c
     SUBDIR += log4cplus
@@ -1772,6 +1769,7 @@
     SUBDIR += mercurialeclipse
     SUBDIR += mergify
     SUBDIR += meson
+    SUBDIR += mill
     SUBDIR += mime
     SUBDIR += mimir
     SUBDIR += mingw32-bin-msvcrt
@@ -2823,6 +2821,7 @@
     SUBDIR += p5-JSON-Schema
     SUBDIR += p5-Java
     SUBDIR += p5-Jonk
+    SUBDIR += p5-Keyword-Pluggable
     SUBDIR += p5-LV
     SUBDIR += p5-Lexical-Alias
     SUBDIR += p5-Lexical-Import
@@ -4374,6 +4373,7 @@
     SUBDIR += py-azure-mgmt-iothub
     SUBDIR += py-azure-mgmt-iothubprovisioningservices
     SUBDIR += py-azure-mgmt-keyvault
+    SUBDIR += py-azure-mgmt-kusto
     SUBDIR += py-azure-mgmt-loganalytics
     SUBDIR += py-azure-mgmt-managementgroups
     SUBDIR += py-azure-mgmt-maps
@@ -4391,6 +4391,7 @@
     SUBDIR += py-azure-mgmt-reservations
     SUBDIR += py-azure-mgmt-resource
     SUBDIR += py-azure-mgmt-search
+    SUBDIR += py-azure-mgmt-security
     SUBDIR += py-azure-mgmt-servicebus
     SUBDIR += py-azure-mgmt-servicefabric
     SUBDIR += py-azure-mgmt-signalr
@@ -4472,6 +4473,7 @@
     SUBDIR += py-click-log
     SUBDIR += py-click-plugins
     SUBDIR += py-click-threading
+    SUBDIR += py-click6
     SUBDIR += py-cliff
     SUBDIR += py-cligj
     SUBDIR += py-clint
@@ -4569,6 +4571,7 @@
     SUBDIR += py-epsilon
     SUBDIR += py-evdev
     SUBDIR += py-eventlib
+    SUBDIR += py-ewmh
     SUBDIR += py-exam
     SUBDIR += py-expiringdict
     SUBDIR += py-extras
@@ -4745,6 +4748,7 @@
     SUBDIR += py-kjbuckets
     SUBDIR += py-knack
     SUBDIR += py-kqueue
+    SUBDIR += py-lark-parser
     SUBDIR += py-lazr.config
     SUBDIR += py-lazr.delegates
     SUBDIR += py-lazy
@@ -5083,6 +5087,7 @@
     SUBDIR += py-ratelimiter
     SUBDIR += py-rauth
     SUBDIR += py-raven
+    SUBDIR += py-rchitect
     SUBDIR += py-rcsparse
     SUBDIR += py-readme_renderer
     SUBDIR += py-rebulk
@@ -5126,6 +5131,7 @@
     SUBDIR += py-rx
     SUBDIR += py-sanetime
     SUBDIR += py-sarge
+    SUBDIR += py-schedule
     SUBDIR += py-schema
     SUBDIR += py-schematics-patched
     SUBDIR += py-scripttest
@@ -5233,6 +5239,7 @@
     SUBDIR += py-txaio
     SUBDIR += py-typechecks
     SUBDIR += py-typed-ast
+    SUBDIR += py-typed-ast12
     SUBDIR += py-typing
     SUBDIR += py-typing-extensions
     SUBDIR += py-tzlocal
@@ -5486,6 +5493,7 @@
     SUBDIR += racer
     SUBDIR += racerd
     SUBDIR += radare2
+    SUBDIR += radian
     SUBDIR += ragel
     SUBDIR += raknet
     SUBDIR += range-v3
@@ -5525,7 +5533,6 @@
     SUBDIR += rpm-spec-mode.el
     SUBDIR += rsvndump
     SUBDIR += rth
-    SUBDIR += rtichoke
     SUBDIR += ruby-bsearch
     SUBDIR += ruby-build
     SUBDIR += ruby-gems
@@ -5778,7 +5785,6 @@
     SUBDIR += rubygem-grape-path-helpers
     SUBDIR += rubygem-grape-route-helpers
     SUBDIR += rubygem-grape-swagger
-    SUBDIR += rubygem-grape0
     SUBDIR += rubygem-grape11
     SUBDIR += rubygem-grape_logging
     SUBDIR += rubygem-graphiql-rails
@@ -5814,6 +5820,7 @@
     SUBDIR += rubygem-io-like
     SUBDIR += rubygem-iobuffer
     SUBDIR += rubygem-iso8601
+    SUBDIR += rubygem-jaeger-client
     SUBDIR += rubygem-jammit
     SUBDIR += rubygem-jaro_winkler
     SUBDIR += rubygem-jasmine-core
@@ -5925,6 +5932,7 @@
     SUBDIR += rubygem-open3_backport
     SUBDIR += rubygem-open4
     SUBDIR += rubygem-opentracing
+    SUBDIR += rubygem-opentracing04
     SUBDIR += rubygem-opt_parse_validator
     SUBDIR += rubygem-optimist
     SUBDIR += rubygem-orm_adapter
@@ -6058,7 +6066,6 @@
     SUBDIR += rubygem-rubyinlineaccel
     SUBDIR += rubygem-rubytree
     SUBDIR += rubygem-rufus-scheduler
-    SUBDIR += rubygem-rufus-scheduler342
     SUBDIR += rubygem-rugged
     SUBDIR += rubygem-runt
     SUBDIR += rubygem-ruport
@@ -6385,7 +6392,6 @@
     SUBDIR += truc
     SUBDIR += ua_parser-core
     SUBDIR += uatraits
-    SUBDIR += uboot-mkimage
     SUBDIR += uclcmd
     SUBDIR += ucommon
     SUBDIR += ucpp

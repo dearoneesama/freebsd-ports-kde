@@ -43,7 +43,7 @@
     SUBDIR += gtkada
     SUBDIR += gtkada3
     SUBDIR += gtkdatabox
-    SUBDIR += gtkextra2
+    SUBDIR += gtkextra
     SUBDIR += gtkglarea2
     SUBDIR += gtkglext
     SUBDIR += gtkglextmm
@@ -55,8 +55,6 @@
     SUBDIR += gtkmm24-reference
     SUBDIR += gtkmm30
     SUBDIR += gtkmm30-reference
-    SUBDIR += gtksourceview
-    SUBDIR += gtksourceview-reference
     SUBDIR += gtksourceview2
     SUBDIR += gtksourceview2-reference
     SUBDIR += gtksourceview3

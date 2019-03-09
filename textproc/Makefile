@@ -167,7 +167,6 @@
     SUBDIR += elasticsearch5-search-guard
     SUBDIR += elasticsearch6
     SUBDIR += elixir-earmark
-    SUBDIR += elixir-ex_doc
     SUBDIR += elixir-funnel
     SUBDIR += elixir-sweet_xml
     SUBDIR += emacs-wiki
@@ -234,6 +233,7 @@
     SUBDIR += grc-aspell
     SUBDIR += greple
     SUBDIR += groff
+    SUBDIR += gron
     SUBDIR += groonga
     SUBDIR += gsed
     SUBDIR += gspell
@@ -1262,6 +1262,7 @@
     SUBDIR += ppower4
     SUBDIR += print-n-times
     SUBDIR += pugixml
+    SUBDIR += pup
     SUBDIR += pure-csv
     SUBDIR += pure-xml
     SUBDIR += py-Chameleon
@@ -1528,6 +1529,7 @@
     SUBDIR += rubygem-babel-transpiler
     SUBDIR += rubygem-babosa
     SUBDIR += rubygem-case_transform
+    SUBDIR += rubygem-character_set
     SUBDIR += rubygem-charlock_holmes
     SUBDIR += rubygem-chewy
     SUBDIR += rubygem-citrus
@@ -1602,6 +1604,7 @@
     SUBDIR += rubygem-multi_xml
     SUBDIR += rubygem-nokogiri
     SUBDIR += rubygem-nokogiri-diff
+    SUBDIR += rubygem-nokogiri18
     SUBDIR += rubygem-nokogumbo
     SUBDIR += rubygem-octopress-escape-code
     SUBDIR += rubygem-opml
@@ -1622,6 +1625,7 @@
     SUBDIR += rubygem-rdtool
     SUBDIR += rubygem-redcarpet
     SUBDIR += rubygem-regexp_parser
+    SUBDIR += rubygem-regexp_property_values
     SUBDIR += rubygem-representable
     SUBDIR += rubygem-reverse_markdown
     SUBDIR += rubygem-ri_cal
@@ -1699,9 +1703,9 @@
     SUBDIR += scim-openvanilla
     SUBDIR += scim-table-imengine
     SUBDIR += scr2txt
-    SUBDIR += scrollkeeper
     SUBDIR += scss
     SUBDIR += scws
+    SUBDIR += sd
     SUBDIR += sdcv
     SUBDIR += sdf
     SUBDIR += sdif

@@ -97,7 +97,6 @@
     SUBDIR += cinepaint
     SUBDIR += cloudcompare
     SUBDIR += clutter
-    SUBDIR += clutter-gtk
     SUBDIR += clutter-gtk3
     SUBDIR += cluttermm
     SUBDIR += cogl
@@ -272,7 +271,6 @@
     SUBDIR += glexcess
     SUBDIR += glfw
     SUBDIR += glfw2
-    SUBDIR += glitz
     SUBDIR += gliv
     SUBDIR += glosm
     SUBDIR += glpng

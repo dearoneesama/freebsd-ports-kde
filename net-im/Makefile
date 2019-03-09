@@ -12,6 +12,7 @@
     SUBDIR += corebird
     SUBDIR += cutegram
     SUBDIR += diligent
+    SUBDIR += dino
     SUBDIR += echat
     SUBDIR += ejabberd
     SUBDIR += ekiga
@@ -63,7 +64,6 @@
     SUBDIR += libsignon-glib
     SUBDIR += libstrophe
     SUBDIR += libtelepathy
-    SUBDIR += libyahoo2
     SUBDIR += licq
     SUBDIR += licq-icq
     SUBDIR += licq-jabber
@@ -112,7 +112,6 @@
     SUBDIR += pidgin-privacy-please
     SUBDIR += pidgin-rocketchat
     SUBDIR += pidgin-sipe
-    SUBDIR += pidgin-skype
     SUBDIR += pidgin-skypeweb
     SUBDIR += pidgin-twitter
     SUBDIR += pidgin-window_merge
@@ -144,7 +143,6 @@
     SUBDIR += py-unmessage
     SUBDIR += py-xmpppy
     SUBDIR += py-xmpppy-irc
-    SUBDIR += py-xmpppy-yahoo
     SUBDIR += qTox
     SUBDIR += qq
     SUBDIR += quaternion
@@ -161,10 +159,9 @@
     SUBDIR += sayaka
     SUBDIR += scudcloud
     SUBDIR += sendxmpp
-    SUBDIR += skype
-    SUBDIR += skype-devel
     SUBDIR += skype4
     SUBDIR += slack-term
+    SUBDIR += spectral
     SUBDIR += ssh-chat
     SUBDIR += talkatu
     SUBDIR += teamwords
