@@ -64,6 +64,8 @@ MIPS_BUILD_DEPENDS=	${LOCALBASE}/include/atomic_ops.h:devel/libatomic_ops
 MIPS_USES=	localbase
 MIPS_CONFIGURE_ENV=	cairo_cv_atomic_primitives="libatomic-ops"
 
+AMD64_CONFIGURE_ENV=	ax_cv_c_float_words_bigendian="no"
+
 PLIST_SUB+=	LIBVER=2.11512.0
 
 post-patch:

@@ -44,6 +44,8 @@ include/KF5/MessageComposer/PluginEditorConvertTextInterface
 include/KF5/MessageComposer/PluginEditorConvertTextManager
 include/KF5/MessageComposer/PluginEditorConverterBeforeConvertingData
 include/KF5/MessageComposer/PluginEditorConverterInitialData
+include/KF5/MessageComposer/PluginEditorGrammarCustomToolsViewInterface
+include/KF5/MessageComposer/PluginEditorGrammarManager
 include/KF5/MessageComposer/PluginEditorInit
 include/KF5/MessageComposer/PluginEditorInitConfigureWidget
 include/KF5/MessageComposer/PluginEditorInitInterface
@@ -119,6 +121,9 @@ include/KF5/MessageViewer/MarkMessageReadHandler
 include/KF5/MessageViewer/MessagePartRenderPlugin
 include/KF5/MessageViewer/MessagePartRendererBase
 include/KF5/MessageViewer/MessagePartRendererManager
+include/KF5/MessageViewer/MessageViewerConfigureSettingsPlugin
+include/KF5/MessageViewer/MessageViewerConfigureSettingsPluginManager
+include/KF5/MessageViewer/MessageViewerConfigureSettingsPluginWidget
 include/KF5/MessageViewer/MessageViewerSettings
 include/KF5/MessageViewer/MessageViewerUtil
 include/KF5/MessageViewer/MimeType
@@ -191,9 +196,9 @@ include/KF5/WebEngineViewer/ZoomActionMenu
 include/KF5/messagecomposer/abstractencryptjob.h
 include/KF5/messagecomposer/akonadisender.h
 include/KF5/messagecomposer/aliasesexpandjob.h
+include/KF5/messagecomposer/attachmentclipboardjob.h
 include/KF5/messagecomposer/attachmentcontrollerbase.h
 include/KF5/messagecomposer/attachmentfrompublickeyjob.h
-include/KF5/messagecomposer/attachmentclipboardjob.h
 include/KF5/messagecomposer/attachmentjob.h
 include/KF5/messagecomposer/attachmentmodel.h
 include/KF5/messagecomposer/attachmentvcardfromaddressbookjob.h
@@ -234,6 +239,8 @@ include/KF5/messagecomposer/plugineditorconverttext.h
 include/KF5/messagecomposer/plugineditorconverttextconfigurewidget.h
 include/KF5/messagecomposer/plugineditorconverttextinterface.h
 include/KF5/messagecomposer/plugineditorconverttextmanager.h
+include/KF5/messagecomposer/plugineditorgrammarcustomtoolsviewinterface.h
+include/KF5/messagecomposer/plugineditorgrammarmanager.h
 include/KF5/messagecomposer/plugineditorinit.h
 include/KF5/messagecomposer/plugineditorinitconfigurewidget.h
 include/KF5/messagecomposer/plugineditorinitinterface.h
@@ -320,6 +327,9 @@ include/KF5/messageviewer/messagepartrenderermanager.h
 include/KF5/messageviewer/messagepartrenderplugin.h
 include/KF5/messageviewer/messageviewer_debug.h
 include/KF5/messageviewer/messageviewer_export.h
+include/KF5/messageviewer/messageviewerconfiguresettingsplugin.h
+include/KF5/messageviewer/messageviewerconfiguresettingspluginmanager.h
+include/KF5/messageviewer/messageviewerconfiguresettingspluginwidget.h
 include/KF5/messageviewer/messageviewersettings.h
 include/KF5/messageviewer/messageviewerutil.h
 include/KF5/messageviewer/mimetype.h

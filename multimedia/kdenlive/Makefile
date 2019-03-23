@@ -20,11 +20,11 @@ USES=		cmake desktop-file-utils gettext-tools pkgconfig \
 USE_GL=		gl glu
 USE_KDE=	archive attica auth bookmarks codecs completion config \
 		configwidgets coreaddons crash dbusaddons ecm filemetadata \
-		guiaddons i18n iconthemes kio itemviews jobwidgets newstuff \
-		notifications notifyconfig service solid sonnet textwidgets \
+		guiaddons i18n iconthemes kio itemviews jobwidgets kdeclarative \
+		newstuff notifications notifyconfig service solid sonnet textwidgets \
 		widgetsaddons xmlgui \
 		init_run
-USE_QT=		concurrent core dbus declarative gui network xml \
+USE_QT=		concurrent core dbus declarative gui multimedia network xml \
 		buildtools_build qmake_build \
 		quickcontrols_run script svg webkit widgets
 USE_XORG=	x11

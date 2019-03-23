@@ -10,6 +10,7 @@ include/KF5/PimCommon/ConfigurePluginDialog
 include/KF5/PimCommon/ConfigurePluginsListWidget
 include/KF5/PimCommon/ConfigurePluginsWidget
 include/KF5/PimCommon/CustomToolsPlugin
+include/KF5/PimCommon/CustomToolsPluginManager
 include/KF5/PimCommon/CustomToolsViewInterface
 include/KF5/PimCommon/CustomToolsWidgetng
 include/KF5/PimCommon/CustomTreeView
@@ -65,6 +66,7 @@ include/KF5/pimcommon/configureplugindialog.h
 include/KF5/pimcommon/configurepluginslistwidget.h
 include/KF5/pimcommon/configurepluginswidget.h
 include/KF5/pimcommon/customtoolsplugin.h
+include/KF5/pimcommon/customtoolspluginmanager.h
 include/KF5/pimcommon/customtoolsviewinterface.h
 include/KF5/pimcommon/customtoolswidgetng.h
 include/KF5/pimcommon/customtreeview.h
