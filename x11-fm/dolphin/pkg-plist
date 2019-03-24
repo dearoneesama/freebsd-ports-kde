@@ -32,6 +32,7 @@ share/config.kcfg/dolphin_iconsmodesettings.kcfg
 share/config.kcfg/dolphin_versioncontrolsettings.kcfg
 share/dbus-1/interfaces/org.freedesktop.FileManager1.xml
 share/dbus-1/services/org.kde.dolphin.FileManager1.service
+share/khotkeys/dolphin.khotkeys
 share/kservices5/dolphinpart.desktop
 share/kservices5/kcmdolphingeneral.desktop
 share/kservices5/kcmdolphinnavigation.desktop
