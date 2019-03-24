@@ -18,6 +18,8 @@ USES=		autoreconf compiler:c++11-lang localbase libtool pathfix pkgconfig
 GNU_CONFIGURE=	yes
 USE_LDCONFIG=	yes
 
+LDFLAGS=	-lpthread
+
 USE_GITHUB=	yes
 GH_ACCOUNT=	${PORTNAME}-ocr
 
