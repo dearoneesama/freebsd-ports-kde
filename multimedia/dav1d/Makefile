@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	dav1d
-DISTVERSION=	0.2.0
+DISTVERSION=	0.2.1
 CATEGORIES=	multimedia
 
 MAINTAINER=	jbeich@FreeBSD.org
@@ -22,7 +22,7 @@ USE_GITLAB=	yes
 USE_LDCONFIG=	yes
 GL_SITE=	https://code.videolan.org
 GL_ACCOUNT=	videolan
-GL_COMMIT=	8e379f1d64bf09224ce2863b0d8aeb7cbfde92d6
+GL_COMMIT=	408d0486889f4f6d92f73abdeaef250659a10bc7
 CONFIGURE_ENV=	UNAME_m=${ARCH} # XXX cpu_family()
 CFLAGS_aarch64=	-no-integrated-as
 CFLAGS_armv6=	-no-integrated-as -B${LOCALBASE}/bin
@@ -36,6 +36,13 @@ TEST_MESON_TRUE=build_tests testdata_tests
 
 .if make(makesum) # for optional distfiles
 .MAKEFLAGS:	WITH="${OPTIONS_DEFINE}"
+.endif
+
+# https://bugs.llvm.org/show_bug.cgi?id=40635
+.if !empty(CFLAGS:M-flto*)
+MESON_ARGS+=	${MESON_ARGS_${CHOSEN_COMPILER_TYPE}_${ARCH}}
+MESON_ARGS_clang_amd64=	-Dstack_alignment=16
+MESON_ARGS_clang_i386=	-Dstack_alignment=4
 .endif
 
 pre-install-TEST-on: do-test

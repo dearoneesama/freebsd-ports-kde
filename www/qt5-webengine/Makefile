@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/www/qt5-webengine/Makefile 496989 2019-03-27 22:34:04Z kai $
 
 # QtWebEngine itself is a very thin layer of Qt code on top of a large part of
 # Chromium (everything up to the content/ layer). As such, most of the work in
@@ -73,7 +73,7 @@ SNDIO_VARS_OFF=		QMAKE_CONFIGURE_ARGS+=-no-sndio
 # We pass `norecursive' to USES=qmake because src/plugins/plugins.pro checks
 # whether webenginewidgets is available, which fails when qmake processes all
 # .pro files at once.
-USES=		gperf jpeg python:2.7,build pkgconfig \
+USES=		gl gnome gperf jpeg python:2.7,build pkgconfig \
 		qmake:norecursive,outsource qt-dist:5,webengine shebangfix
 USE_GL=		gl
 USE_GNOME=	glib20 libxml2 libxslt
@@ -83,7 +83,6 @@ USE_XORG=	x11 xcb xcomposite xcursor xext xi xorgproto \
 		xrandr xrender xscrnsaver xtst
 
 USE_LDCONFIG=	${QT_LIBDIR}
-
 
 QMAKE_CONFIGURE_ARGS=	-proprietary-codecs -system-ffmpeg -disable-webrtc
 
