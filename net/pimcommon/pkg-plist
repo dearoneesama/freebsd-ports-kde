@@ -84,7 +84,6 @@ include/KF5/pimcommon/migratefileinfo.h
 include/KF5/pimcommon/minimumcombobox.h
 include/KF5/pimcommon/networkmanager.h
 include/KF5/pimcommon/networkutil.h
-include/KF5/pimcommon/pimcommon_debug.h
 include/KF5/pimcommon/pimcommon_export.h
 include/KF5/pimcommon/pimcommonsetting_base.h
 include/KF5/pimcommon/pimcommonsettings.h
@@ -114,7 +113,6 @@ include/KF5/pimcommonakonadi/imapresourcecapabilitiesmanager.h
 include/KF5/pimcommonakonadi/incidencesforwidget.h
 include/KF5/pimcommonakonadi/mailutil.h
 include/KF5/pimcommonakonadi/manageserversidesubscriptionjob.h
-include/KF5/pimcommonakonadi/pimcommonakonadi_debug.h
 include/KF5/pimcommonakonadi/pimcommonakonadi_export.h
 include/KF5/pimcommonakonadi/plugininterface.h
 include/KF5/pimcommonakonadi/selectmulticollectiondialog.h

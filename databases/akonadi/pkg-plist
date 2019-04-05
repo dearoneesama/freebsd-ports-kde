@@ -256,7 +256,6 @@ include/KF5/AkonadiWidgets/EntityListView
 include/KF5/AkonadiWidgets/EntityTreeView
 include/KF5/AkonadiWidgets/ItemView
 include/KF5/AkonadiWidgets/ManageAccountWidget
-include/KF5/AkonadiWidgets/RenameFavoriteDialog
 include/KF5/AkonadiWidgets/StandardActionManager
 include/KF5/AkonadiWidgets/SubscriptionDialog
 include/KF5/AkonadiWidgets/TagEditWidget
@@ -285,7 +284,6 @@ include/KF5/AkonadiWidgets/entitytreeview.h
 include/KF5/AkonadiWidgets/etmviewstatesaver.h
 include/KF5/AkonadiWidgets/itemview.h
 include/KF5/AkonadiWidgets/manageaccountwidget.h
-include/KF5/AkonadiWidgets/renamefavoritedialog.h
 include/KF5/AkonadiWidgets/standardactionmanager.h
 include/KF5/AkonadiWidgets/subscriptiondialog.h
 include/KF5/AkonadiWidgets/tageditwidget.h
