@@ -20,11 +20,11 @@ LIB_DEPENDS=	libcups.so:print/cups \
 RUN_DEPENDS=	nxproxy:net/nxproxy \
 		x2goclient-cli:net/x2goclient-cli
 
-USES=		qmake qt:5
+USES=		gl qmake qt:5
 USE_GL=		gl
-USE_QT=		core gui network svg widgets x11extras \
-		buildtools_build linguisttools_build qmake_build
 USE_XORG=	x11 xpm
+USE_QT=		core gui network svg widgets x11extras  \
+		buildtools_build linguisttools_build qmake_build
 QMAKE_ARGS=	QMAKE_LRELEASE="${LRELEASE}"
 
 OPTIONS_DEFINE=		DOCS LDAP
