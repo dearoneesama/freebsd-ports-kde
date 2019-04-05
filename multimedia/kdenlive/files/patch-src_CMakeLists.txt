@@ -1,0 +1,27 @@
+From b48d76d898419ed36c8bdb16253f1f0c6c53d210 Mon Sep 17 00:00:00 2001
+From: Luca Beltrame <lbeltrame@kde.org>
+Date: Fri, 5 Apr 2019 14:22:29 +0000
+Subject: [PATCH] Use rttr target as dynamic library when available
+
+--- src/CMakeLists.txt.orig	2019-04-04 17:11:51 UTC
++++ src/CMakeLists.txt
+@@ -69,7 +69,7 @@ if(Qt5WebKitWidgets_FOUND)
+ endif()
+ ## top_SRCS
+ file(GLOB top_SRCS "*.cpp")
+-# string(REGEX REPLACE "${CMAKE_CURRENT_SOURCE_DIR}/lib/[^;]+;?" "" top_SRCS "${top_SRCS}") 
++# string(REGEX REPLACE "${CMAKE_CURRENT_SOURCE_DIR}/lib/[^;]+;?" "" top_SRCS "${top_SRCS}")
+ list(REMOVE_ITEM top_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp)
+ list(APPEND kdenlive_SRCS ${top_SRCS})
+ ## Others special cases
+@@ -139,8 +139,8 @@ target_link_libraries(kdenliveLib
+     ${MLTPP_LIBRARIES}
+     ${CMAKE_DL_LIBS}
+     ${CMAKE_THREAD_LIBS_INIT}
+-    kiss_fft
+-    RTTR::Core_Lib)
++    kiss_fft)
++target_link_libraries(kdenliveLib RTTR::Core)
+ 
+ if(BUILD_COVERAGE)
+   target_link_libraries(kdenliveLib gcov)

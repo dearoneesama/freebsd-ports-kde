@@ -1,6 +1,7 @@
 bin/kdenlive
 bin/kdenlive_render
 etc/xdg/kdenlive.categories
+etc/xdg/kdenlive_keyboardschemes.knsrc
 etc/xdg/kdenlive_renderprofiles.knsrc
 etc/xdg/kdenlive_titles.knsrc
 etc/xdg/kdenlive_wipes.knsrc
@@ -11,7 +12,8 @@ share/applications/org.kde.kdenlive.desktop
 share/config.kcfg/kdenlivesettings.kcfg
 %%PORTDOCS%%%%DOCSDIR%%/Kdenlive/AUTHORS
 %%PORTDOCS%%%%DOCSDIR%%/Kdenlive/COPYING
-%%PORTDOCS%%%%DOCSDIR%%/Kdenlive/README
+%%PORTDOCS%%%%DOCSDIR%%/Kdenlive/README.md
+%%DATADIR%%/externalproxies.rc
 share/icons/hicolor/128x128/actions/kdenlive-select-all.png
 share/icons/hicolor/128x128/apps/kdenlive.png
 share/icons/hicolor/128x128/mimetypes/application-x-kdenlivetitle.png
@@ -103,8 +105,6 @@ share/icons/hicolor/scalable/mimetypes/application-x-kdenlive.svgz
 share/icons/hicolor/scalable/mimetypes/application-x-kdenlivetitle.svgz
 share/icons/hicolor/scalable/mimetypes/video-mlt-playlist.svgz
 %%DATADIR%%/banner.png
-%%DATADIR%%/blacklisted_effects.txt
-%%DATADIR%%/blacklisted_transitions.txt
 %%DATADIR%%/effects/acompressor.xml
 %%DATADIR%%/effects/aecho.xml
 %%DATADIR%%/effects/agate.xml
@@ -309,9 +309,16 @@ share/icons/hicolor/scalable/mimetypes/video-mlt-playlist.svgz
 %%DATADIR%%/titles/simple-scroll.kdenlivetitle
 %%DATADIR%%/titles/simple-with-date.kdenlivetitle
 %%DATADIR%%/titles/simple.kdenlivetitle
+%%DATADIR%%/transitions/affine.xml
+%%DATADIR%%/transitions/composite.xml
+%%DATADIR%%/transitions/dissolve.xml
 %%DATADIR%%/transitions/frei0r_cairoaffineblend.xml
 %%DATADIR%%/transitions/frei0r_cairoblend.xml
+%%DATADIR%%/transitions/luma.xml
+%%DATADIR%%/transitions/mix.xml
 %%DATADIR%%/transitions/qtblend.xml
+%%DATADIR%%/transitions/region.xml
+%%DATADIR%%/transitions/slide.xml
 %%DATADIR%%/transitions/wipe.xml
 share/knotifications5/kdenlive.notifyrc
 share/kservices5/mltpreview.desktop
