@@ -10,7 +10,7 @@ etc/xdg/kmail.renamecategories
 etc/xdg/ktnefapps.categories
 etc/xdg/ktnefapps.renamecategories
 lib/libkmailprivate.so.5
-lib/libkmailprivate.so.5.10.91
+lib/libkmailprivate.so.%%KDE_APPLICATIONS_SHLIB_VER%%
 %%QT_PLUGINDIR%%/akonadi/config/archivemailagentconfig.so
 %%QT_PLUGINDIR%%/akonadi/config/followupreminderagentconfig.so
 %%QT_PLUGINDIR%%/kcm_kmail.so
