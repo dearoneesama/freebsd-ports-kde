@@ -9522,7 +9522,6 @@ databases/elixir-ecto_migrate||2017-11-11|Has expired: Broken for more than 6 mo
 audio/gspeakers||2017-11-11|Has expired: Broken for more than 6 months
 net/p5-Filesys-SmbClient||2017-11-11|Has expired: Broken for more than 6 months
 audio/tclmidi||2017-11-11|Has expired: Broken for more than 6 months
-security/py-xmlsec||2017-11-11|Has expired: Broken for more than 6 months
 security/samba-virusfilter||2017-11-11|Has expired: Broken for more than 6 months
 textproc/ocaml-pxp||2017-11-11|Has expired: Broken for more than 6 months
 audio/sooperlooper||2017-11-11|Has expired: Broken for more than 6 months
@@ -10776,7 +10775,6 @@ editors/manedit||2018-12-21|Has expired: Uses obsolete glib12
 misc/gtkfind||2018-12-21|Has expired: Uses obsolete glib12
 games/mindguard||2018-12-21|Has expired: Uses obsolete glib12
 games/xbattle||2018-12-21|Has expired: Uses obsolete glib12
-games/xbill||2018-12-21|Has expired: Uses obsolete glib12
 games/corewars||2018-12-21|Has expired: Uses obsolete glib12
 games/dopewars||2018-12-21|Has expired: Uses obsolete glib12
 games/garith||2018-12-21|Has expired: Uses obsolete glib12
@@ -11544,6 +11542,7 @@ net-mgmt/icinga||2019-02-04|Removed, depends on expired net-mgmt/icinga-core
 net-mgmt/icli||2019-02-04|Removed, depends on expired net-mgmt/icinga-core
 net-mgmt/icinga-classicweb||2019-02-04|Has expired: Upstream EOLed Icinga 1.x from 2018-12-31
 net-mgmt/pnp-icinga||2019-02-04|Removed, depends on expired net-mgmt/icinga-classicweb
+sysutils/atf-allwinner|sysutils/atf-sun50i_a64|2019-02-04|Changed to be a slave port and renamed
 sysutils/yum||2019-02-07|Has expired: Abandoned upstream, does not work with python3
 sysutils/createrepo||2019-02-07|Has expired: Abandoned upstream, does not work with python3
 www/wml||2019-02-08|Removing to be properly added back with svn copy
@@ -12174,3 +12173,5 @@ x11/xbelld||2019-04-04|Has expired: Depends on audio/esound
 devel/mkcmd||2019-04-04|Removed, depends on expired devel/msrc0
 devel/msrc0||2019-04-04|Has expired: No longer required as comms/conserver is being retired.
 sysutils/curly||2019-04-04|Removed, depends on expired devel/msrc0
+devel/pecl-xdebug25|devel/pecl-xdebug|2019-04-09|Has expired: Please use pecl/xdebug which uses latest version
+devel/pecl-xdebug-devel|devel/pecl-xdebug|2019-04-09|Development version no longer necessary
