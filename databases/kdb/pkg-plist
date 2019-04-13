@@ -189,6 +189,10 @@ share/locale/it/LC_MESSAGES/kdb_qt.qm
 %%PGSQL%%share/locale/ja/LC_MESSAGES/kdb_postgresqldriver_qt.qm
 share/locale/ja/LC_MESSAGES/kdb_qt.qm
 %%SQLITE%%share/locale/ja/LC_MESSAGES/kdb_sqlitedriver_qt.qm
+%%MYSQL%%share/locale/ko/LC_MESSAGES/kdb_mysqldriver_qt.qm
+%%PGSQL%%share/locale/ko/LC_MESSAGES/kdb_postgresqldriver_qt.qm
+share/locale/ko/LC_MESSAGES/kdb_qt.qm
+%%SQLITE%%share/locale/ko/LC_MESSAGES/kdb_sqlitedriver_qt.qm
 %%MYSQL%%share/locale/lt/LC_MESSAGES/kdb_mysqldriver_qt.qm
 %%PGSQL%%share/locale/lt/LC_MESSAGES/kdb_postgresqldriver_qt.qm
 share/locale/lt/LC_MESSAGES/kdb_qt.qm

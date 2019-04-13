@@ -1,9 +1,9 @@
 # $FreeBSD$
 
 PORTNAME=		kreport
-DISTVERSION=		3.1.91
+DISTVERSION=		3.2.0
 CATEGORIES=		textproc kde
-MASTER_SITES=		KDE/unstable/${PORTNAME}/src
+MASTER_SITES=		KDE/stable/${PORTNAME}/src
 DIST_SUBDIR=		KDE/${PORTNAME}
 
 MAINTAINER=		kde@FreeBSD.org

@@ -111,6 +111,8 @@ share/locale/it/LC_MESSAGES/kpropertycore_qt.qm
 share/locale/it/LC_MESSAGES/kpropertywidgets_qt.qm
 share/locale/ja/LC_MESSAGES/kpropertycore_qt.qm
 share/locale/ja/LC_MESSAGES/kpropertywidgets_qt.qm
+share/locale/ko/LC_MESSAGES/kpropertycore_qt.qm
+share/locale/ko/LC_MESSAGES/kpropertywidgets_qt.qm
 share/locale/lt/LC_MESSAGES/kpropertycore_qt.qm
 share/locale/lt/LC_MESSAGES/kpropertywidgets_qt.qm
 share/locale/nl/LC_MESSAGES/kpropertycore_qt.qm

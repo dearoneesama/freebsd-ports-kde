@@ -184,6 +184,7 @@ share/locale/kk/LC_MESSAGES/kreport_qt.qm
 share/locale/kk/LC_MESSAGES/kreport_webplugin_qt.qm
 share/locale/ko/LC_MESSAGES/kreport_barcodeplugin_qt.qm
 share/locale/ko/LC_MESSAGES/kreport_mapsplugin_qt.qm
+share/locale/ko/LC_MESSAGES/kreport_qt.qm
 share/locale/ko/LC_MESSAGES/kreport_webplugin_qt.qm
 share/locale/ku/LC_MESSAGES/kreport_qt.qm
 share/locale/lt/LC_MESSAGES/kreport_barcodeplugin_qt.qm
