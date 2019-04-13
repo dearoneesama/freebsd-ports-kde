@@ -2,8 +2,8 @@
 # $FreeBSD$
 
 PORTNAME=	polkit
-PORTVERSION=	0.114
-PORTREVISION=	2
+PORTVERSION=	0.115
+PORTREVISION=	0
 CATEGORIES=	sysutils gnome
 MASTER_SITES=	http://www.freedesktop.org/software/polkit/releases/
 
