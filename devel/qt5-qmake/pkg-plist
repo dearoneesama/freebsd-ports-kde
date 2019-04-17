@@ -471,6 +471,10 @@
 %%QT_MKSPECDIR%%/winrt-arm-msvc2017/qplatformdefs.h
 %%QT_MKSPECDIR%%/winrt-arm64-msvc2017/qmake.conf
 %%QT_MKSPECDIR%%/winrt-arm64-msvc2017/qplatformdefs.h
+%%QT_MKSPECDIR%%/winrt-arm-msvc2019/qmake.conf
+%%QT_MKSPECDIR%%/winrt-arm-msvc2019/qplatformdefs.h
+%%QT_MKSPECDIR%%/winrt-arm64-msvc2019/qmake.conf
+%%QT_MKSPECDIR%%/winrt-arm64-msvc2019/qplatformdefs.h
 %%QT_MKSPECDIR%%/winrt-x64-msvc2015/qmake.conf
 %%QT_MKSPECDIR%%/winrt-x64-msvc2015/qplatformdefs.h
 %%QT_MKSPECDIR%%/winrt-x64-msvc2017/qmake.conf
@@ -479,3 +483,7 @@
 %%QT_MKSPECDIR%%/winrt-x86-msvc2015/qplatformdefs.h
 %%QT_MKSPECDIR%%/winrt-x86-msvc2017/qmake.conf
 %%QT_MKSPECDIR%%/winrt-x86-msvc2017/qplatformdefs.h
+%%QT_MKSPECDIR%%/winrt-x64-msvc2019/qmake.conf
+%%QT_MKSPECDIR%%/winrt-x64-msvc2019/qplatformdefs.h
+%%QT_MKSPECDIR%%/winrt-x86-msvc2019/qmake.conf
+%%QT_MKSPECDIR%%/winrt-x86-msvc2019/qplatformdefs.h
