@@ -12039,6 +12039,8 @@
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-proximityreading.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-proximitysensor-members.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-proximitysensor.html
+%%QT_DOCDIR%%/qtsensors/qml-qtsensors-qmlsensors-members.html
+%%QT_DOCDIR%%/qtsensors/qml-qtsensors-qmlsensors.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-rotationreading-members.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-rotationreading.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-rotationsensor-members.html
@@ -12047,8 +12049,6 @@
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-sensor.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-sensorgesture-members.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-sensorgesture.html
-%%QT_DOCDIR%%/qtsensors/qml-qtsensors-sensorglobal-members.html
-%%QT_DOCDIR%%/qtsensors/qml-qtsensors-sensorglobal.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-sensorreading-members.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-sensorreading.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-tapreading-members.html
