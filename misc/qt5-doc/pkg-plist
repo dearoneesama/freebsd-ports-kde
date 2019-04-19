@@ -5847,6 +5847,8 @@
 %%QT_DOCDIR%%/qthelp/images/ico_note_attention.png
 %%QT_DOCDIR%%/qthelp/images/ico_out.png
 %%QT_DOCDIR%%/qthelp/images/logo.png
+%%QT_DOCDIR%%/qthelp/qcompressedhelpinfo-members.html
+%%QT_DOCDIR%%/qthelp/qcompressedhelpinfo.html
 %%QT_DOCDIR%%/qthelp/qhelpcontentitem-members.html
 %%QT_DOCDIR%%/qthelp/qhelpcontentitem.html
 %%QT_DOCDIR%%/qthelp/qhelpcontentmodel-members.html
@@ -8056,6 +8058,7 @@
 %%QT_DOCDIR%%/qtqml/qml-qtqml-number-members.html
 %%QT_DOCDIR%%/qtqml/qml-qtqml-number.html
 %%QT_DOCDIR%%/qtqml/qml-qtqml-qt-members.html
+%%QT_DOCDIR%%/qtqml/qml-qtqml-qt-obsolete.html
 %%QT_DOCDIR%%/qtqml/qml-qtqml-qt.html
 %%QT_DOCDIR%%/qtqml/qml-qtqml-qtobject-members.html
 %%QT_DOCDIR%%/qtqml/qml-qtqml-qtobject.html
@@ -10301,18 +10304,6 @@
 %%QT_DOCDIR%%/qtquickcontrols/images/toolseparator-separator-horizontal.9.png
 %%QT_DOCDIR%%/qtquickcontrols/images/toolseparator-separator-vertical.9.png
 %%QT_DOCDIR%%/qtquickcontrols/images/tooltip-background.9.png
-%%QT_DOCDIR%%/qtquickcontrols/images/used-in-examples/chattutorial/shared/Albert_Einstein.png
-%%QT_DOCDIR%%/qtquickcontrols/images/used-in-examples/chattutorial/shared/Albert_Einstein@2x.png
-%%QT_DOCDIR%%/qtquickcontrols/images/used-in-examples/chattutorial/shared/Albert_Einstein@3x.png
-%%QT_DOCDIR%%/qtquickcontrols/images/used-in-examples/chattutorial/shared/Albert_Einstein@4x.png
-%%QT_DOCDIR%%/qtquickcontrols/images/used-in-examples/chattutorial/shared/Ernest_Hemingway.png
-%%QT_DOCDIR%%/qtquickcontrols/images/used-in-examples/chattutorial/shared/Ernest_Hemingway@2x.png
-%%QT_DOCDIR%%/qtquickcontrols/images/used-in-examples/chattutorial/shared/Ernest_Hemingway@3x.png
-%%QT_DOCDIR%%/qtquickcontrols/images/used-in-examples/chattutorial/shared/Ernest_Hemingway@4x.png
-%%QT_DOCDIR%%/qtquickcontrols/images/used-in-examples/chattutorial/shared/Hans_Gude.png
-%%QT_DOCDIR%%/qtquickcontrols/images/used-in-examples/chattutorial/shared/Hans_Gude@2x.png
-%%QT_DOCDIR%%/qtquickcontrols/images/used-in-examples/chattutorial/shared/Hans_Gude@3x.png
-%%QT_DOCDIR%%/qtquickcontrols/images/used-in-examples/chattutorial/shared/Hans_Gude@4x.png
 %%QT_DOCDIR%%/qtquickcontrols/images/used-in-examples/gallery/icons/gallery/20x20/back.png
 %%QT_DOCDIR%%/qtquickcontrols/images/used-in-examples/gallery/icons/gallery/20x20/drawer.png
 %%QT_DOCDIR%%/qtquickcontrols/images/used-in-examples/gallery/icons/gallery/20x20/menu.png
