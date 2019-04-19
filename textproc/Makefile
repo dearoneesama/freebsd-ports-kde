@@ -1278,6 +1278,7 @@
     SUBDIR += py-awesome-slugify
     SUBDIR += py-bibtexparser
     SUBDIR += py-bugzillatools
+    SUBDIR += py-cchardet
     SUBDIR += py-chardet
     SUBDIR += py-citeproc-py
     SUBDIR += py-citeproc-py-styles
@@ -1346,6 +1347,7 @@
     SUBDIR += py-normality
     SUBDIR += py-numpydoc
     SUBDIR += py-openpyxl
+    SUBDIR += py-openpyxl24
     SUBDIR += py-openstackdocstheme
     SUBDIR += py-orange3-text
     SUBDIR += py-os-api-ref
@@ -1549,6 +1551,9 @@
     SUBDIR += rubygem-elasticsearch
     SUBDIR += rubygem-elasticsearch-api
     SUBDIR += rubygem-elasticsearch-dsl
+    SUBDIR += rubygem-elasticsearch-model
+    SUBDIR += rubygem-elasticsearch-persistence
+    SUBDIR += rubygem-elasticsearch-rails
     SUBDIR += rubygem-elasticsearch-transport
     SUBDIR += rubygem-elasticsearch-xpack
     SUBDIR += rubygem-emot
