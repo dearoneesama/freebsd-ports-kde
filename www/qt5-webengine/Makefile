@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/www/qt5-webengine/Makefile 496989 2019-03-27 22:34:04Z kai $
 
 # QtWebEngine itself is a very thin layer of Qt code on top of a large part of
 # Chromium (everything up to the content/ layer). As such, most of the work in

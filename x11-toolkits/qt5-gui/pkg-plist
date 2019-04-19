@@ -211,7 +211,6 @@
 %%QT_INCDIR%%/QtGui/%%FULLVER%%/QtGui/private/qvectorpath_p.h
 %%QT_INCDIR%%/QtGui/%%FULLVER%%/QtGui/private/qvulkanfunctions_p.h
 %%QT_INCDIR%%/QtGui/%%FULLVER%%/QtGui/private/qvulkanwindow_p.h
-%%QT_INCDIR%%/QtGui/%%FULLVER%%/QtGui/private/qwasmlocalfileaccess_p.h
 %%QT_INCDIR%%/QtGui/%%FULLVER%%/QtGui/private/qwindow_p.h
 %%QT_INCDIR%%/QtGui/%%FULLVER%%/QtGui/private/qxbmhandler_p.h
 %%QT_INCDIR%%/QtGui/%%FULLVER%%/QtGui/private/qxpmhandler_p.h

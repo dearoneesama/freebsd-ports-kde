@@ -286,6 +286,7 @@
     SUBDIR += cervisia
     SUBDIR += cflow
     SUBDIR += cflow2vcg
+    SUBDIR += cfr
     SUBDIR += cgdb
     SUBDIR += cgilib
     SUBDIR += cgit
@@ -824,7 +825,6 @@
     SUBDIR += go-bindata
     SUBDIR += go-git
     SUBDIR += go-glide
-    SUBDIR += go-gocode
     SUBDIR += go-godef
     SUBDIR += go-protobuf
     SUBDIR += go-tools
@@ -4109,6 +4109,7 @@
     SUBDIR += phpsh
     SUBDIR += phpunit6
     SUBDIR += phpunit7
+    SUBDIR += phpunit8
     SUBDIR += physfs
     SUBDIR += picp
     SUBDIR += picprog
@@ -4183,6 +4184,7 @@
     SUBDIR += py-IBMQuantumExperience
     SUBDIR += py-Jinja2
     SUBDIR += py-Jinja2-doc
+    SUBDIR += py-Js2Py
     SUBDIR += py-Missing
     SUBDIR += py-MultiMapping
     SUBDIR += py-PEAK-Rules
@@ -4599,6 +4601,7 @@
     SUBDIR += py-funcparserlib
     SUBDIR += py-funcsigs
     SUBDIR += py-functools32
+    SUBDIR += py-funcy
     SUBDIR += py-fusefs
     SUBDIR += py-fusepy
     SUBDIR += py-future
@@ -4629,6 +4632,7 @@
     SUBDIR += py-gobject
     SUBDIR += py-gobject3
     SUBDIR += py-google-apputils
+    SUBDIR += py-google-i18n-address
     SUBDIR += py-googleapis-common-protos
     SUBDIR += py-grab
     SUBDIR += py-graphene
@@ -4788,6 +4792,7 @@
     SUBDIR += py-monotonic
     SUBDIR += py-monty
     SUBDIR += py-more-itertools
+    SUBDIR += py-more-itertools5
     SUBDIR += py-mox
     SUBDIR += py-mox3
     SUBDIR += py-msgpack
@@ -4970,6 +4975,7 @@
     SUBDIR += py-pyicu
     SUBDIR += py-pyinotify
     SUBDIR += py-pyinstaller
+    SUBDIR += py-pyjsparser
     SUBDIR += py-pyke
     SUBDIR += py-pylibsrtp
     SUBDIR += py-pylru

@@ -1,9 +1,6 @@
 # Created by: Marie Loise Nolden <loise@kde.org>
 # $FreeBSD$
 
-# Override
-QT5_VERSION=	5.13.0
-
 PORTNAME=	doc
 DISTVERSION=	${QT5_VERSION}
 CATEGORIES=	misc

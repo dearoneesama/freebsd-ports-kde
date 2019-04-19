@@ -2,7 +2,6 @@
 
 PORTNAME=	kdenlive
 DISTVERSION=	${KDE_APPLICATIONS_VERSION}
-PORTREVISION=	1
 CATEGORIES=	multimedia kde kde-applications
 
 MAINTAINER=	kde@FreeBSD.org
@@ -10,7 +9,8 @@ COMMENT=	KDE professional quality non-linear video editing suite
 
 LICENSE=	GPLv2
 
-LIB_DEPENDS=	libmlt.so:multimedia/mlt
+LIB_DEPENDS=	libmlt.so:multimedia/mlt \
+		librttr_core.so:devel/rttr
 BUILD_DEPENDS=	${LOCALBASE}/include/linux/input.h:devel/evdev-proto \
 		${LOCALBASE}/include/linux/videodev2.h:multimedia/v4l_compat
 RUN_DEPENDS=	ffmpeg${FFMPEG_SUFX}:multimedia/ffmpeg${FFMPEG_SUFX} \
@@ -21,11 +21,11 @@ USES=		cmake desktop-file-utils gettext-tools pkgconfig \
 USE_GL=		gl glu
 USE_KDE=	archive attica auth bookmarks codecs completion config \
 		configwidgets coreaddons crash dbusaddons ecm filemetadata \
-		guiaddons i18n iconthemes kio itemviews jobwidgets newstuff \
-		notifications notifyconfig service solid sonnet textwidgets \
+		guiaddons i18n iconthemes kio itemviews jobwidgets kdeclarative \
+		newstuff notifications notifyconfig service solid sonnet textwidgets \
 		widgetsaddons xmlgui \
 		init_run
-USE_QT=		concurrent core dbus declarative gui network xml \
+USE_QT=		concurrent core dbus declarative gui multimedia network xml \
 		buildtools_build qmake_build \
 		quickcontrols_run script svg webkit widgets
 USE_XORG=	x11
@@ -43,6 +43,7 @@ DVDWIZARD_DESC=	DVD authoring via DVDAuthor and cdrtools
 SCREENCAST_DESC=Screen capture support via recordMyDesktop
 V4L_DESC=	Webcam support via Video4Linux
 XINE_DESC=	DVD preview support via xine
+JOGSHUTTLE_DESC=Jog/Shuttle support
 
 DVDWIZARD_RUN_DEPENDS=	dvdauthor:multimedia/dvdauthor \
 			cdrecord:sysutils/cdrtools
@@ -57,6 +58,9 @@ V4L_LIB_DEPENDS=	libv4l2.so:multimedia/libv4l
 V4L_CMAKE_OFF=		-DWITH_LibV4L2:BOOL=FALSE
 
 XINE_RUN_DEPENDS=	xine:multimedia/xine
+
+# kdenlive 19.04 has some issues that still need to be sorted out.
+KDE_APPLICATIONS_VERSION=	18.12.3
 
 post-patch:
 	@${REINPLACE_CMD} -e '/^update_xdg_mimetypes/ d' \

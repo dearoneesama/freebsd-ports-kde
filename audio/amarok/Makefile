@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/audio/amarok/Makefile 488627 2018-12-28 21:00:55Z tcberner $
 
 PORTNAME=	amarok
 DISTVERSIONPREFIX=	v
