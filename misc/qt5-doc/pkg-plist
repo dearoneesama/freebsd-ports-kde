@@ -2915,7 +2915,6 @@
 %%QT_DOCDIR%%/qtcore/qscopedpointer.html
 %%QT_DOCDIR%%/qtcore/qscopedvaluerollback-members.html
 %%QT_DOCDIR%%/qtcore/qscopedvaluerollback.html
-%%QT_DOCDIR%%/qtcore/qscopeguard-members.html
 %%QT_DOCDIR%%/qtcore/qscopeguard.html
 %%QT_DOCDIR%%/qtcore/qsemaphore-members.html
 %%QT_DOCDIR%%/qtcore/qsemaphore.html
@@ -12039,8 +12038,6 @@
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-proximityreading.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-proximitysensor-members.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-proximitysensor.html
-%%QT_DOCDIR%%/qtsensors/qml-qtsensors-qmlsensors-members.html
-%%QT_DOCDIR%%/qtsensors/qml-qtsensors-qmlsensors.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-rotationreading-members.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-rotationreading.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-rotationsensor-members.html
@@ -12049,6 +12046,8 @@
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-sensor.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-sensorgesture-members.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-sensorgesture.html
+%%QT_DOCDIR%%/qtsensors/qml-qtsensors-sensorglobal-members.html
+%%QT_DOCDIR%%/qtsensors/qml-qtsensors-sensorglobal.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-sensorreading-members.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-sensorreading.html
 %%QT_DOCDIR%%/qtsensors/qml-qtsensors-tapreading-members.html
@@ -15907,6 +15906,9 @@
 %%QT_DOCDIR%%/qtxmlpatterns/qabstracturiresolver.html
 %%QT_DOCDIR%%/qtxmlpatterns/qabstractxmlnodemodel-members.html
 %%QT_DOCDIR%%/qtxmlpatterns/qabstractxmlnodemodel.html
+%%QT_DOCDIR%%/qtxmlpatterns/qabstractxmlreceiver-members.html
+%%QT_DOCDIR%%/qtxmlpatterns/qabstractxmlreceiver.html
+%%QT_DOCDIR%%/qtxmlpatterns/qhash-proxy.html
 %%QT_DOCDIR%%/qtxmlpatterns/qml-qtquick-xmllistmodel-xmllistmodel-members.html
 %%QT_DOCDIR%%/qtxmlpatterns/qml-qtquick-xmllistmodel-xmllistmodel.html
 %%QT_DOCDIR%%/qtxmlpatterns/qml-qtquick-xmllistmodel-xmlrole-members.html
