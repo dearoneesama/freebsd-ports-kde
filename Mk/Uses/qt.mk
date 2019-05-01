@@ -22,7 +22,7 @@ _QT_MK_INCLUDED=	qt.mk
 
 # Qt versions currently supported by the framework.
 _QT_SUPPORTED?=		5
-QT5_VERSION?=		5.12.3
+QT5_VERSION?=		5.13.0-beta3
 
 # We accept the Qt version to be passed by either or all of the three mk files.
 .  if empty(qt_ARGS) && empty(qmake_ARGS) && empty(qt-dist_ARGS)
@@ -139,7 +139,7 @@ _USE_QT5_ONLY=		3d buildtools canvas3d charts concurrent connectivity \
 			graphicaleffects location networkauth paths phonon4 plugininfo printsupport \
 			qdbus qdoc qdoc-data qev quickcontrols \
 			quickcontrols2 remoteobjects scxml sensors serialbus serialport speech \
-			sql-tds uiplugin uitools virtualkeyboard wayland webchannel \
+			sql-tds uiplugin uitools virtualkeyboard wayland webchannel webplugin \
 			webengine websockets websockets-qml webview widgets x11extras
 
 # Dependency tuples: _LIB should be preferred if possible.
@@ -325,6 +325,9 @@ qt-webchannel_LIB=	libQt${_QT_LIBVER}WebChannel.so
 
 qt-webengine_PORT=	www/${_QT_RELNAME}-webengine
 qt-webengine_LIB=	libQt${_QT_LIBVER}WebEngine.so
+
+qt-webglplugin_PORT=     www/${_QT_RELNAME}-webglplugin
+qt-webglplugin_PATH=     ${LOCALBASE}/${QT_PLUGINDIR_REL}/platforms/libqwebgl.so
 
 qt-websockets_PORT=	www/${_QT_RELNAME}-websockets
 qt-websockets_LIB=	libQt${_QT_LIBVER}WebSockets.so
