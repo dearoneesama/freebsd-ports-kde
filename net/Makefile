@@ -1480,6 +1480,7 @@
     SUBDIR += urlendec
     SUBDIR += usbredir
     SUBDIR += utftpd
+    SUBDIR += v2ray
     SUBDIR += vblade
     SUBDIR += vde
     SUBDIR += vde2

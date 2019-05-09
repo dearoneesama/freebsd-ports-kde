@@ -679,6 +679,7 @@
     SUBDIR += plplot-ada
     SUBDIR += polylib
     SUBDIR += primegen
+    SUBDIR += primesieve
     SUBDIR += primme
     SUBDIR += prng
     SUBDIR += proofgeneral
@@ -783,6 +784,7 @@
     SUBDIR += py-random2
     SUBDIR += py-rapi
     SUBDIR += py-roman
+    SUBDIR += py-rpy
     SUBDIR += py-rpy2
     SUBDIR += py-scientific
     SUBDIR += py-scikit-umfpack
@@ -824,7 +826,6 @@
     SUBDIR += rngstreams
     SUBDIR += rocs
     SUBDIR += rpcalc
-    SUBDIR += rpy
     SUBDIR += rubygem-algebra
     SUBDIR += rubygem-expression_parser
     SUBDIR += rubygem-fftw3

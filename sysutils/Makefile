@@ -1377,6 +1377,7 @@
     SUBDIR += u-boot-nanopi-a64
     SUBDIR += u-boot-nanopi-m1plus
     SUBDIR += u-boot-nanopi-neo
+    SUBDIR += u-boot-nanopi-neo2
     SUBDIR += u-boot-nanopi-neo-air
     SUBDIR += u-boot-olimex-a20-som-evb
     SUBDIR += u-boot-olinuxino-lime
@@ -1416,6 +1417,7 @@
     SUBDIR += uefi-edk2-bhyve
     SUBDIR += uefi-edk2-bhyve-csm
     SUBDIR += uefi-edk2-bhyve-devel
+    SUBDIR += uefi-edk2-qemu
     SUBDIR += ufs_copy
     SUBDIR += uhidd
     SUBDIR += uif2iso

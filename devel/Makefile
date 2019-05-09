@@ -1651,6 +1651,7 @@
     SUBDIR += linux-c7-qt
     SUBDIR += linux-c7-sdl12
     SUBDIR += linux-c7-sdl20
+    SUBDIR += linux-ltp
     SUBDIR += linux_libusb
     SUBDIR += lion
     SUBDIR += listserialc
@@ -1662,7 +1663,6 @@
     SUBDIR += llvm-devel
     SUBDIR += llvm35
     SUBDIR += llvm40
-    SUBDIR += llvm50
     SUBDIR += llvm60
     SUBDIR += llvm70
     SUBDIR += llvm80
@@ -4144,7 +4144,6 @@
     SUBDIR += pmdk
     SUBDIR += poco
     SUBDIR += popt
-    SUBDIR += poslib
     SUBDIR += powerpc64-binutils
     SUBDIR += powerpc64-gcc
     SUBDIR += powerpc64-xtoolchain-gcc
@@ -4733,7 +4732,6 @@
     SUBDIR += py-jsonrpclib
     SUBDIR += py-jsonrpclib-pelix
     SUBDIR += py-jsonschema
-    SUBDIR += py-jsonschema2
     SUBDIR += py-jsonsir
     SUBDIR += py-jupyter_client
     SUBDIR += py-jupyter_console
@@ -5464,6 +5462,7 @@
     SUBDIR += radian
     SUBDIR += ragel
     SUBDIR += raknet
+    SUBDIR += rang
     SUBDIR += range-v3
     SUBDIR += rapidjson
     SUBDIR += raylib
@@ -5870,7 +5869,6 @@
     SUBDIR += rubygem-mongo
     SUBDIR += rubygem-mono_logger
     SUBDIR += rubygem-msgpack
-    SUBDIR += rubygem-msgpack1
     SUBDIR += rubygem-mspec
     SUBDIR += rubygem-multi_json
     SUBDIR += rubygem-multi_test
@@ -6337,6 +6335,7 @@
     SUBDIR += thrift
     SUBDIR += thrift-c_glib
     SUBDIR += thrift-cpp
+    SUBDIR += thrust
     SUBDIR += thunar-vcs-plugin
     SUBDIR += ticcutils
     SUBDIR += tig
@@ -6385,6 +6384,7 @@
     SUBDIR += valgrind-devel
     SUBDIR += varconf
     SUBDIR += vasm
+    SUBDIR += vc
     SUBDIR += vcglib
     SUBDIR += vera++
     SUBDIR += vexcl
