@@ -69,6 +69,7 @@
     SUBDIR += auralquiz
     SUBDIR += avanor
     SUBDIR += avoision
+    SUBDIR += avp
     SUBDIR += awale
     SUBDIR += awele
     SUBDIR += balazar
@@ -308,6 +309,7 @@
     SUBDIR += frogatto
     SUBDIR += frotz
     SUBDIR += frozen-bubble
+    SUBDIR += fs2open
     SUBDIR += fteqw
     SUBDIR += funnyboat
     SUBDIR += galaxis

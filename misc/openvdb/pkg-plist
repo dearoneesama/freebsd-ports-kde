@@ -1,4 +1,7 @@
 bin/vdb_print
+%%TOOLS%%bin/vdb_lod
+%%TOOLS%%bin/vdb_render
+%%TOOLS%%bin/vdb_view
 include/openvdb/Exceptions.h
 include/openvdb/Grid.h
 include/openvdb/MetaMap.h
@@ -56,7 +59,7 @@ include/openvdb/points/PointMove.h
 include/openvdb/points/PointSample.h
 include/openvdb/points/PointScatter.h
 include/openvdb/points/StreamCompression.h
-%%PYTHON%%include/openvdb/python/%%PYTHON_PYOEXTENSION%%penvdb.h
+%%PYTHON%%include/openvdb/python/pyopenvdb.h
 include/openvdb/tools/ChangeBackground.h
 include/openvdb/tools/Clip.h
 include/openvdb/tools/Composite.h
@@ -139,4 +142,4 @@ lib/cmake/OpenVDB/OpenVDBUtils.cmake
 lib/libopenvdb.so
 lib/libopenvdb.so.6.1
 lib/libopenvdb.so.6.1.0
-%%PYTHON%%%%PYTHON_LIBDIR%%/%%PYTHON_PYOEXTENSION%%penvdb.so
+%%PYTHON%%%%PYTHON_LIBDIR%%/pyopenvdb.so
