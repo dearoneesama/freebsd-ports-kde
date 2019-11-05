@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	libxslt
-PORTVERSION=	1.1.33
+DISTVERSION=	1.1.34
 CATEGORIES?=	textproc gnome
 MASTER_SITES=	http://xmlsoft.org/sources/ \
 		https://mirror.umd.edu/xbmc/build-deps/sources/
@@ -39,9 +39,9 @@ CRYPTO_CONFIGURE_WITH=	crypto
 CRYPTO_LIB_DEPENDS=	libgcrypt.so:security/libgcrypt
 
 post-patch:
-	@${REINPLACE_CMD} -e '/^install-data-am:/ s|install-data-local||' \
+#	@${REINPLACE_CMD} -e '/^install-data-am:/ s|install-data-local||' \
 		${WRKSRC}/doc/Makefile.in
-	@${REINPLACE_CMD} -e 's|[$$](bindir)/xsltproc|../xsltproc/xsltproc|g ; \
+#	@${REINPLACE_CMD} -e 's|[$$](bindir)/xsltproc|../xsltproc/xsltproc|g ; \
 		s|[$$](bindir)/xmllint|../xmllint/xmllint|g' \
 		${WRKSRC}/doc/Makefile.in
 
