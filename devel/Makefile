@@ -214,8 +214,8 @@
     SUBDIR += bashdb
     SUBDIR += bats-core
     SUBDIR += bazel
-    SUBDIR += bazel029
     SUBDIR += bazel-buildtools
+    SUBDIR += bazel029
     SUBDIR += bbfreeze
     SUBDIR += bbfreeze-loader
     SUBDIR += bcc
@@ -800,6 +800,7 @@
     SUBDIR += git-codereview
     SUBDIR += git-cola
     SUBDIR += git-cvs
+    SUBDIR += git-delta
     SUBDIR += git-extras
     SUBDIR += git-gui
     SUBDIR += git-lfs
@@ -4451,6 +4452,7 @@
     SUBDIR += py-foolscap
     SUBDIR += py-fortran
     SUBDIR += py-freebsd
+    SUBDIR += py-freebsd-sysctl
     SUBDIR += py-freenas.dispatcher
     SUBDIR += py-freenas.utils
     SUBDIR += py-freezegun
@@ -4501,6 +4503,8 @@
     SUBDIR += py-googleapis-common-protos
     SUBDIR += py-grab
     SUBDIR += py-graphene
+    SUBDIR += py-graphene-django
+    SUBDIR += py-graphene-sqlalchemy
     SUBDIR += py-graphql-core
     SUBDIR += py-graphql-relay
     SUBDIR += py-greenlet
@@ -4551,6 +4555,7 @@
     SUBDIR += py-isort
     SUBDIR += py-iterpipes
     SUBDIR += py-itypes
+    SUBDIR += py-jail
     SUBDIR += py-jaraco
     SUBDIR += py-jaraco.classes
     SUBDIR += py-jaraco.context
@@ -4864,6 +4869,7 @@
     SUBDIR += py-pyinotify
     SUBDIR += py-pyinstaller
     SUBDIR += py-pyjsparser
+    SUBDIR += py-pyjq
     SUBDIR += py-pyke
     SUBDIR += py-pylama
     SUBDIR += py-pylibsrtp
@@ -5013,6 +5019,7 @@
     SUBDIR += py-rubymarshal
     SUBDIR += py-rwt
     SUBDIR += py-rx
+    SUBDIR += py-rx1
     SUBDIR += py-sanetime
     SUBDIR += py-saneyaml
     SUBDIR += py-sarge
@@ -5822,6 +5829,7 @@
     SUBDIR += rubygem-flipper
     SUBDIR += rubygem-flipper-active_support_cache_store
     SUBDIR += rubygem-flipper-active_support_cache_store013
+    SUBDIR += rubygem-flipper-ui
     SUBDIR += rubygem-flipper013
     SUBDIR += rubygem-fluent-logger
     SUBDIR += rubygem-fog
@@ -6035,6 +6043,7 @@
     SUBDIR += rubygem-numerizer
     SUBDIR += rubygem-numerizer01
     SUBDIR += rubygem-octopress-hooks
+    SUBDIR += rubygem-oci
     SUBDIR += rubygem-oj
     SUBDIR += rubygem-omniauth_crowd
     SUBDIR += rubygem-omniauth_crowd22
