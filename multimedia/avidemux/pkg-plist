@@ -367,7 +367,7 @@ include/avidemux/2.7/cmake/vf_plugin_gtk.cmake
 include/avidemux/2.7/cmake/vf_plugin_qt4.cmake
 include/avidemux/2.7/cmake/vf_plugin_qt4gl.cmake
 include/avidemux/2.7/libavcodec/avcodec.h
-include/avidemux/2.7/libavcodec/vaapi.h
+%%VAAPI%%include/avidemux/2.7/libavcodec/vaapi.h
 include/avidemux/2.7/libavcodec/vdpau.h
 include/avidemux/2.7/libavcodec/version.h
 include/avidemux/2.7/libavcodec/videotoolbox.h
