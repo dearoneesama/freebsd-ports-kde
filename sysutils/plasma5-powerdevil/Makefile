@@ -1,5 +1,7 @@
 # $FreeBSD$
 
+BROKEN=		Does not yet build
+
 PORTNAME=	powerdevil
 DISTVERSION=	${KDE_PLASMA_VERSION}
 CATEGORIES=	sysutils kde kde-plasma
