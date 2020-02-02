@@ -320,7 +320,6 @@
     SUBDIR += fcron
     SUBDIR += fd
     SUBDIR += fdupes
-    SUBDIR += feather
     SUBDIR += fetchlog
     SUBDIR += ffs2recov
     SUBDIR += file
@@ -590,6 +589,7 @@
     SUBDIR += lineak-xosdplugin
     SUBDIR += lineakd
     SUBDIR += linrename
+    SUBDIR += linux-c7-dosfstools
     SUBDIR += linux-c7-lttng-ust
     SUBDIR += linux-c7-numactl-libs
     SUBDIR += linux-c7-userspace-rcu
@@ -763,6 +763,7 @@
     SUBDIR += opencorsairlink
     SUBDIR += openipmi
     SUBDIR += opensbi
+    SUBDIR += openseachest
     SUBDIR += openupsd
     SUBDIR += openzfs
     SUBDIR += openzfs-kmod
@@ -879,6 +880,7 @@
     SUBDIR += pear-Translation2
     SUBDIR += pecl-proctitle
     SUBDIR += pefs-kmod
+    SUBDIR += perp
     SUBDIR += personality
     SUBDIR += pesign
     SUBDIR += pfetch
@@ -956,7 +958,6 @@
     SUBDIR += py-azure-cli-base
     SUBDIR += py-azure-cli-core
     SUBDIR += py-azure-cli-telemetry
-    SUBDIR += py-bcfg2
     SUBDIR += py-bitrot
     SUBDIR += py-borgmatic
     SUBDIR += py-cdmi
@@ -1045,7 +1046,6 @@
     SUBDIR += rcm
     SUBDIR += rdate
     SUBDIR += rdiff-backup
-    SUBDIR += rdiff-backup-devel
     SUBDIR += rdup
     SUBDIR += read-edid
     SUBDIR += realsync
@@ -1121,6 +1121,7 @@
     SUBDIR += rubygem-httplog
     SUBDIR += rubygem-itamae
     SUBDIR += rubygem-librarian-puppet
+    SUBDIR += rubygem-license-acceptance
     SUBDIR += rubygem-log4r
     SUBDIR += rubygem-logify
     SUBDIR += rubygem-mogilefs-client
@@ -1281,8 +1282,8 @@
     SUBDIR += tclsyslog
     SUBDIR += tcplist
     SUBDIR += tdir
+    SUBDIR += tealdeer
     SUBDIR += tenshi
-    SUBDIR += tentakel
     SUBDIR += terraform
     SUBDIR += terraform-provider-vultr
     SUBDIR += testdisk

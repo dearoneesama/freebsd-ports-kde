@@ -47,6 +47,7 @@
     SUBDIR += bluefish
     SUBDIR += bolt
     SUBDIR += bozohttpd
+    SUBDIR += browsh
     SUBDIR += bugzilla2atom
     SUBDIR += buku
     SUBDIR += butterfly
@@ -68,7 +69,6 @@
     SUBDIR += cgiwrap
     SUBDIR += checkbot
     SUBDIR += chems
-    SUBDIR += cherokee
     SUBDIR += choqok
     SUBDIR += chpasswd
     SUBDIR += chrome-gnome-shell
@@ -85,7 +85,6 @@
     SUBDIR += colly
     SUBDIR += coppermine
     SUBDIR += cplanet
-    SUBDIR += cppcms
     SUBDIR += cpr
     SUBDIR += crawl
     SUBDIR += crp
@@ -174,7 +173,6 @@
     SUBDIR += fswiki
     SUBDIR += g-cows
     SUBDIR += g-gcl
-    SUBDIR += gaeutilities
     SUBDIR += gallery2
     SUBDIR += gatling
     SUBDIR += gauche-makiki
@@ -200,7 +198,6 @@
     SUBDIR += gobuffalo
     SUBDIR += gohugo
     SUBDIR += google-appengine
-    SUBDIR += google-sitemapgen
     SUBDIR += googlebook_dl
     SUBDIR += googler
     SUBDIR += goose
@@ -270,7 +267,6 @@
     SUBDIR += jmeter
     SUBDIR += joomla3
     SUBDIR += jspwiki
-    SUBDIR += jtoolkit
     SUBDIR += jwt-cli
     SUBDIR += kanboard
     SUBDIR += kannel
@@ -295,6 +291,7 @@
     SUBDIR += libjwt
     SUBDIR += libmicrohttpd
     SUBDIR += libnghttp2
+    SUBDIR += libnghttp3
     SUBDIR += libresonic-standalone
     SUBDIR += libwpe
     SUBDIR += libwww
@@ -302,7 +299,6 @@
     SUBDIR += lighttpd
     SUBDIR += lighttpd-mod_h264_streaming
     SUBDIR += linkcheck
-    SUBDIR += linkchecker
     SUBDIR += linklint
     SUBDIR += links
     SUBDIR += links1
@@ -311,7 +307,6 @@
     SUBDIR += linux-opera
     SUBDIR += litmus
     SUBDIR += ljdeps
-    SUBDIR += ljdump
     SUBDIR += logtools
     SUBDIR += lua-resty-core
     SUBDIR += lua-resty-lrucache
@@ -418,7 +413,6 @@
     SUBDIR += mohawk
     SUBDIR += moinmoin
     SUBDIR += moinmoincli
-    SUBDIR += monast
     SUBDIR += mongoose
     SUBDIR += mongrel2
     SUBDIR += moodle35
@@ -443,6 +437,7 @@
     SUBDIR += nextcloud
     SUBDIR += nextcloud-calendar
     SUBDIR += nextcloud-contacts
+    SUBDIR += nextcloud-deck
     SUBDIR += nextcloud-notes
     SUBDIR += nextcloud-tasks
     SUBDIR += nghttp2
@@ -946,6 +941,7 @@
     SUBDIR += p5-HTTP-SimpleLinkChecker
     SUBDIR += p5-HTTP-Size
     SUBDIR += p5-HTTP-Thin
+    SUBDIR += p5-HTTP-Throwable
     SUBDIR += p5-HTTP-Tiny
     SUBDIR += p5-HTTP-Tiny-SPDY
     SUBDIR += p5-HTTP-Tiny-UA
@@ -1108,6 +1104,7 @@
     SUBDIR += p5-RT-Extension-LDAPImport
     SUBDIR += p5-RT-Extension-MandatoryOnTransition
     SUBDIR += p5-RT-Extension-QuickAssign
+    SUBDIR += p5-RT-Extension-RepeatTicket
     SUBDIR += p5-RT-Extension-SLA
     SUBDIR += p5-RTx-Calendar
     SUBDIR += p5-Reaction
@@ -1454,19 +1451,6 @@
     SUBDIR += py-cssselect
     SUBDIR += py-cssutils
     SUBDIR += py-ddgr
-    SUBDIR += py-dj21-django-auth-ldap
-    SUBDIR += py-dj21-django-cors-headers
-    SUBDIR += py-dj21-django-crispy-forms
-    SUBDIR += py-dj21-django-debug-toolbar
-    SUBDIR += py-dj21-django-filter
-    SUBDIR += py-dj21-django-js-asset
-    SUBDIR += py-dj21-django-mptt
-    SUBDIR += py-dj21-django-tables2
-    SUBDIR += py-dj21-django-taggit
-    SUBDIR += py-dj21-django-taggit-serializer
-    SUBDIR += py-dj21-django-timezone-field
-    SUBDIR += py-dj21-djangorestframework
-    SUBDIR += py-dj21-drf-yasg
     SUBDIR += py-dj22-django-auth-ldap
     SUBDIR += py-dj22-django-cacheops
     SUBDIR += py-dj22-django-cors-headers
@@ -1550,7 +1534,6 @@
     SUBDIR += py-django-mezzanine-grappelli
     SUBDIR += py-django-model-utils
     SUBDIR += py-django-modelcluster
-    SUBDIR += py-django-modelcluster4
     SUBDIR += py-django-modern-rpc
     SUBDIR += py-django-mptt
     SUBDIR += py-django-netfields
@@ -1558,7 +1541,6 @@
     SUBDIR += py-django-otp
     SUBDIR += py-django-otp-yubikey
     SUBDIR += py-django-overextends
-    SUBDIR += py-django-paging
     SUBDIR += py-django-photologue
     SUBDIR += py-django-picklefield
     SUBDIR += py-django-pipeline
@@ -1598,7 +1580,6 @@
     SUBDIR += py-django-webpack-loader
     SUBDIR += py-django-widget-tweaks
     SUBDIR += py-django111
-    SUBDIR += py-django21
     SUBDIR += py-django22
     SUBDIR += py-django30
     SUBDIR += py-django_compressor
@@ -1618,7 +1599,6 @@
     SUBDIR += py-evernote
     SUBDIR += py-fake-useragent
     SUBDIR += py-falcon
-    SUBDIR += py-fcgi
     SUBDIR += py-fedex
     SUBDIR += py-feedgenerator
     SUBDIR += py-flask
@@ -1646,6 +1626,7 @@
     SUBDIR += py-flask-restful
     SUBDIR += py-flask-restplus
     SUBDIR += py-flask-script
+    SUBDIR += py-flask-security
     SUBDIR += py-flask-smorest
     SUBDIR += py-flask-socketio
     SUBDIR += py-flask-sockets
@@ -1683,13 +1664,14 @@
     SUBDIR += py-h2
     SUBDIR += py-horizon
     SUBDIR += py-hpack
+    SUBDIR += py-hstspreload
     SUBDIR += py-html
     SUBDIR += py-html5-parser
     SUBDIR += py-html5lib
     SUBDIR += py-httmock
-    SUBDIR += py-http-parser
     SUBDIR += py-httpie
     SUBDIR += py-httplib2
+    SUBDIR += py-httptools
     SUBDIR += py-hyper
     SUBDIR += py-hyperframe
     SUBDIR += py-hyperlink
@@ -1705,9 +1687,7 @@
     SUBDIR += py-libsass
     SUBDIR += py-livereload
     SUBDIR += py-mechanize
-    SUBDIR += py-meld
     SUBDIR += py-meld3
-    SUBDIR += py-mt
     SUBDIR += py-multidict
     SUBDIR += py-mwoauth
     SUBDIR += py-nevow
@@ -1825,6 +1805,7 @@
     SUBDIR += py-qt5-webengine
     SUBDIR += py-qt5-webkit
     SUBDIR += py-qt5-webkitwidgets
+    SUBDIR += py-qt5-websockets
     SUBDIR += py-rackspace-monitoring
     SUBDIR += py-recaptcha
     SUBDIR += py-requestbuilder
@@ -1841,7 +1822,6 @@
     SUBDIR += py-restclient
     SUBDIR += py-rfc3986
     SUBDIR += py-rfc3987
-    SUBDIR += py-rhodecode
     SUBDIR += py-rollbar
     SUBDIR += py-routes
     SUBDIR += py-rules
@@ -1881,6 +1861,7 @@
     SUBDIR += py-urlwatch
     SUBDIR += py-user_agent
     SUBDIR += py-utidylib
+    SUBDIR += py-uvicorn
     SUBDIR += py-w3lib
     SUBDIR += py-wagtail
     SUBDIR += py-waitress
@@ -1907,7 +1888,6 @@
     SUBDIR += pyjamas
     SUBDIR += qdecoder
     SUBDIR += qhttpengine
-    SUBDIR += qooxdoo
     SUBDIR += qt5-webchannel
     SUBDIR += qt5-webengine
     SUBDIR += qt5-webglplugin
@@ -2265,8 +2245,6 @@
     SUBDIR += snarf
     SUBDIR += sogo2
     SUBDIR += sogo2-activesync
-    SUBDIR += sogo3
-    SUBDIR += sogo3-activesync
     SUBDIR += sogo4
     SUBDIR += sogo4-activesync
     SUBDIR += spawn-fcgi
@@ -2427,7 +2405,6 @@
     SUBDIR += varnish-libvmod-awsrest
     SUBDIR += varnish-libvmod-digest
     SUBDIR += varnish-libvmod-dynamic
-    SUBDIR += varnish-libvmod-maxminddb
     SUBDIR += varnish-modules
     SUBDIR += varnish-nagios
     SUBDIR += varnish4

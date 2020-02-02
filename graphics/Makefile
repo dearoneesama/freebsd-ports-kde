@@ -73,9 +73,7 @@
     SUBDIR += bmeps
     SUBDIR += bmp2html
     SUBDIR += box
-    SUBDIR += boxer
     SUBDIR += bsd-plotutils
-    SUBDIR += bugle
     SUBDIR += c-a-i-r
     SUBDIR += cadubi
     SUBDIR += caffe
@@ -149,7 +147,6 @@
     SUBDIR += ebsynth
     SUBDIR += edje_viewer
     SUBDIR += electricsheep
-    SUBDIR += electrix
     SUBDIR += embree
     SUBDIR += enblend
     SUBDIR += engauge-digitizer
@@ -166,7 +163,6 @@
     SUBDIR += evince
     SUBDIR += evince-lite
     SUBDIR += evolvotron
-    SUBDIR += exact-image
     SUBDIR += exif
     SUBDIR += exifprobe
     SUBDIR += exiftags
@@ -268,7 +264,6 @@
     SUBDIR += gmt5-dcw
     SUBDIR += gmt5-gshhg
     SUBDIR += gnash
-    SUBDIR += gnofract4d
     SUBDIR += gnome-color-manager
     SUBDIR += gnome-video-effects
     SUBDIR += gocr
@@ -293,7 +288,6 @@
     SUBDIR += graphviz
     SUBDIR += grx
     SUBDIR += gscan2pdf
-    SUBDIR += gsculpt
     SUBDIR += gstreamer-plugins-aalib
     SUBDIR += gstreamer-plugins-cairo
     SUBDIR += gstreamer-plugins-gdkpixbuf
@@ -315,6 +309,7 @@
     SUBDIR += gstreamer1-plugins-openexr
     SUBDIR += gstreamer1-plugins-openjpeg
     SUBDIR += gstreamer1-plugins-png
+    SUBDIR += gstreamer1-plugins-qt
     SUBDIR += gstreamer1-plugins-rsvg
     SUBDIR += gstreamer1-plugins-vulkan
     SUBDIR += gstreamer1-plugins-webp
@@ -348,8 +343,6 @@
     SUBDIR += imageviewer
     SUBDIR += imageworsener
     SUBDIR += imc
-    SUBDIR += imgtops
-    SUBDIR += imgv
     SUBDIR += imlib2
     SUBDIR += imlib2-webp
     SUBDIR += imlib2_loaders
@@ -410,7 +403,6 @@
     SUBDIR += lazpaint
     SUBDIR += lcdtest
     SUBDIR += lcms
-    SUBDIR += lcms-python
     SUBDIR += lcms2
     SUBDIR += leafpak
     SUBDIR += lensfun
@@ -423,6 +415,7 @@
     SUBDIR += libafterimage
     SUBDIR += libansilove
     SUBDIR += libart_lgpl
+    SUBDIR += libavif
     SUBDIR += libboard
     SUBDIR += libbpg
     SUBDIR += libcaca
@@ -537,7 +530,6 @@
     SUBDIR += milton
     SUBDIR += minder
     SUBDIR += ming
-    SUBDIR += mirage
     SUBDIR += mirtk
     SUBDIR += mmrecover
     SUBDIR += movit
@@ -701,7 +693,6 @@
     SUBDIR += p5-ming
     SUBDIR += panoglview
     SUBDIR += panomatic
-    SUBDIR += partio
     SUBDIR += pcl-pointclouds
     SUBDIR += pdf2svg
     SUBDIR += pdfpc
@@ -802,11 +793,9 @@
     SUBDIR += py-django-easy-thumbnails
     SUBDIR += py-djvulibre
     SUBDIR += py-editobj
-    SUBDIR += py-exif
     SUBDIR += py-exifread
     SUBDIR += py-fiona
     SUBDIR += py-freeimagepy
-    SUBDIR += py-gd
     SUBDIR += py-gdal
     SUBDIR += py-geomdl
     SUBDIR += py-geopandas
@@ -825,7 +814,6 @@
     SUBDIR += py-imageio24
     SUBDIR += py-imagesize
     SUBDIR += py-img2pdf
-    SUBDIR += py-imgurpython
     SUBDIR += py-leather
     SUBDIR += py-mapclassify
     SUBDIR += py-mayavi
@@ -838,10 +826,9 @@
     SUBDIR += py-opencv
     SUBDIR += py-openexr
     SUBDIR += py-openimageio
-    SUBDIR += py-paint
     SUBDIR += py-photocollage
     SUBDIR += py-pillow
-    SUBDIR += py-pivy-devel
+    SUBDIR += py-pivy
     SUBDIR += py-plotly
     SUBDIR += py-png
     SUBDIR += py-poppler
@@ -852,6 +839,7 @@
     SUBDIR += py-pyepsg
     SUBDIR += py-pygal
     SUBDIR += py-pyganim
+    SUBDIR += py-pygeoapi
     SUBDIR += py-pyglet
     SUBDIR += py-pyglet12
     SUBDIR += py-pygooglechart
@@ -882,15 +870,13 @@
     SUBDIR += py-wand
     SUBDIR += py-webcolors
     SUBDIR += py-willow
-    SUBDIR += py-willow11
     SUBDIR += py-yaswfp
-    SUBDIR += pygts
     SUBDIR += pymorph
-    SUBDIR += pysvg
     SUBDIR += qcomicbook
     SUBDIR += qgis
     SUBDIR += qgis-ltr
     SUBDIR += qiv
+    SUBDIR += qr-code-generator
     SUBDIR += qt5-3d
     SUBDIR += qt5-graphicaleffects
     SUBDIR += qt5-imageformats
@@ -940,6 +926,7 @@
     SUBDIR += rubygem-gitlab_emoji
     SUBDIR += rubygem-goocanvas
     SUBDIR += rubygem-gruff
+    SUBDIR += rubygem-image_processing
     SUBDIR += rubygem-image_science
     SUBDIR += rubygem-imagesize
     SUBDIR += rubygem-invisible_captcha
@@ -952,7 +939,9 @@
     SUBDIR += rubygem-rmagick
     SUBDIR += rubygem-rsvg2
     SUBDIR += rubygem-ruby-graphviz
+    SUBDIR += rubygem-ruby-vips
     SUBDIR += rubygem-scruffy
+    SUBDIR += rx
     SUBDIR += s10sh
     SUBDIR += s2tc
     SUBDIR += sage

@@ -150,6 +150,7 @@
     SUBDIR += etrace
     SUBDIR += eventviews
     SUBDIR += exabgp
+    SUBDIR += exabgp4
     SUBDIR += exaddos
     SUBDIR += fb
     SUBDIR += fiche
@@ -222,7 +223,6 @@
     SUBDIR += gstreamer1-plugins-libmms
     SUBDIR += gstreamer1-plugins-srtp
     SUBDIR += gtk-vnc
-    SUBDIR += gtknetcat
     SUBDIR += guacamole-server
     SUBDIR += gupnp
     SUBDIR += gupnp-av
@@ -374,6 +374,7 @@
     SUBDIR += libnatpmp
     SUBDIR += libnet
     SUBDIR += libnfs
+    SUBDIR += libngtcp2
     SUBDIR += libnids
     SUBDIR += libnss-cache
     SUBDIR += libnss-mysql
@@ -421,6 +422,7 @@
     SUBDIR += lla
     SUBDIR += ltm
     SUBDIR += lualdap
+    SUBDIR += lualdap-51
     SUBDIR += luasocket
     SUBDIR += luasocket-51
     SUBDIR += luasocket-53
@@ -482,6 +484,7 @@
     SUBDIR += ndisc6
     SUBDIR += ndpi
     SUBDIR += ndproxy
+    SUBDIR += neatvnc
     SUBDIR += nepenthes
     SUBDIR += net6
     SUBDIR += netatalk3
@@ -515,7 +518,6 @@
     SUBDIR += nss_ldap
     SUBDIR += nsscache
     SUBDIR += ntimed
-    SUBDIR += ntlmaps
     SUBDIR += ntopng
     SUBDIR += ntp
     SUBDIR += ntp-devel
@@ -988,10 +990,10 @@
     SUBDIR += pktanon
     SUBDIR += pload
     SUBDIR += plugdaemon
-    SUBDIR += polyorb
     SUBDIR += poptop
     SUBDIR += portfwd
     SUBDIR += pptpclient
+    SUBDIR += proby
     SUBDIR += proftpd-mod_ldap
     SUBDIR += prosearch
     SUBDIR += proxy-connect
@@ -1017,7 +1019,6 @@
     SUBDIR += py-cloudflare-scrape
     SUBDIR += py-cloudflare-scrape-js2py
     SUBDIR += py-cloudscraper
-    SUBDIR += py-coherence
     SUBDIR += py-confluent-kafka
     SUBDIR += py-cymruwhois
     SUBDIR += py-dpkt
@@ -1128,7 +1129,6 @@
     SUBDIR += py-twitter-tools
     SUBDIR += py-txamqp
     SUBDIR += py-txrestapi
-    SUBDIR += py-upnp-inspector
     SUBDIR += py-uritemplate
     SUBDIR += py-uritools
     SUBDIR += py-urlextract
@@ -1140,11 +1140,9 @@
     SUBDIR += py-zeep
     SUBDIR += py-zeroconf
     SUBDIR += py-zope.proxy
-    SUBDIR += py-zsi
     SUBDIR += pygopherd
     SUBDIR += pynids
     SUBDIR += pyrad
-    SUBDIR += pythondirector
     SUBDIR += qadsl
     SUBDIR += qoauth-qt5
     SUBDIR += qt5-network
@@ -1200,6 +1198,7 @@
     SUBDIR += rtg
     SUBDIR += rtpbreak
     SUBDIR += rtpproxy
+    SUBDIR += rtptools
     SUBDIR += rubygem-activestorage52
     SUBDIR += rubygem-amazon-ec2
     SUBDIR += rubygem-amq-protocol
@@ -1378,7 +1377,6 @@
     SUBDIR += sie-nmsg
     SUBDIR += simpleproxy
     SUBDIR += sip_scenario
-    SUBDIR += sippy_b2bua
     SUBDIR += siproxd
     SUBDIR += sipsak
     SUBDIR += skstream
@@ -1446,6 +1444,7 @@
     SUBDIR += tcpsplit
     SUBDIR += tcpstat
     SUBDIR += tcptestsuite
+    SUBDIR += tcptrace
     SUBDIR += tcptraceroute
     SUBDIR += tcpview
     SUBDIR += tcpwatch
@@ -1517,6 +1516,7 @@
     SUBDIR += wackamole
     SUBDIR += wakeonlan
     SUBDIR += waypipe
+    SUBDIR += wayvnc
     SUBDIR += whois
     SUBDIR += widentd
     SUBDIR += wireguard

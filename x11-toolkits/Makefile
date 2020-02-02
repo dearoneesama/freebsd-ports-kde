@@ -10,7 +10,6 @@
     SUBDIR += bwidget
     SUBDIR += c++-gtk-utils
     SUBDIR += ctk
-    SUBDIR += diorite
     SUBDIR += flowcanvas
     SUBDIR += fltk
     SUBDIR += fox14
@@ -110,7 +109,6 @@
     SUBDIR += nanogui
     SUBDIR += neXtaw
     SUBDIR += ntk
-    SUBDIR += nucleo
     SUBDIR += ocaml-lablgtk2
     SUBDIR += ocaml-labltk
     SUBDIR += open-motif
@@ -178,7 +176,6 @@
     SUBDIR += py-gtk2
     SUBDIR += py-gtkglext
     SUBDIR += py-gtksourceview
-    SUBDIR += py-gui
     SUBDIR += py-kivy
     SUBDIR += py-kiwi-gtk
     SUBDIR += py-qt5-gui
@@ -230,7 +227,7 @@
     SUBDIR += shared-desktop-ontologies
     SUBDIR += skinlf
     SUBDIR += slingshot
-    SUBDIR += soqt-devel
+    SUBDIR += soqt
     SUBDIR += swt
     SUBDIR += tepl
     SUBDIR += termit
