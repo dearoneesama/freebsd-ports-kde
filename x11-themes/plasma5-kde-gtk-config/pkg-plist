@@ -1,5 +1,7 @@
+lib/kconf_update_bin/gtk_theme
 lib/libexec/gtk3_preview
 lib/libexec/gtk_preview
 lib/libexec/reload_gtk_apps
 %%QT_PLUGINDIR%%/kf5/kded/gtkconfig.so
 share/kcm-gtk-module/preview.ui
+share/kconf_update/gtkconfig.upd

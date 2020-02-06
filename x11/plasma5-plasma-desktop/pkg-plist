@@ -568,6 +568,8 @@ share/doc/HTML/nl/kcontrol/keys/index.cache.bz2
 share/doc/HTML/nl/kcontrol/keys/index.docbook
 share/doc/HTML/nl/kcontrol/mouse/index.cache.bz2
 share/doc/HTML/nl/kcontrol/mouse/index.docbook
+share/doc/HTML/nl/kcontrol/notifications/index.cache.bz2
+share/doc/HTML/nl/kcontrol/notifications/index.docbook
 share/doc/HTML/nl/kcontrol/paths/index.cache.bz2
 share/doc/HTML/nl/kcontrol/paths/index.docbook
 share/doc/HTML/nl/kcontrol/solid-actions/index.cache.bz2
@@ -870,6 +872,8 @@ share/doc/HTML/sv/kcontrol/keys/index.cache.bz2
 share/doc/HTML/sv/kcontrol/keys/index.docbook
 share/doc/HTML/sv/kcontrol/mouse/index.cache.bz2
 share/doc/HTML/sv/kcontrol/mouse/index.docbook
+share/doc/HTML/sv/kcontrol/notifications/index.cache.bz2
+share/doc/HTML/sv/kcontrol/notifications/index.docbook
 share/doc/HTML/sv/kcontrol/paths/index.cache.bz2
 share/doc/HTML/sv/kcontrol/paths/index.docbook
 share/doc/HTML/sv/kcontrol/solid-actions/index.cache.bz2
@@ -934,6 +938,8 @@ share/doc/HTML/uk/kcontrol/keys/index.cache.bz2
 share/doc/HTML/uk/kcontrol/keys/index.docbook
 share/doc/HTML/uk/kcontrol/mouse/index.cache.bz2
 share/doc/HTML/uk/kcontrol/mouse/index.docbook
+share/doc/HTML/uk/kcontrol/notifications/index.cache.bz2
+share/doc/HTML/uk/kcontrol/notifications/index.docbook
 share/doc/HTML/uk/kcontrol/paths/index.cache.bz2
 share/doc/HTML/uk/kcontrol/paths/index.docbook
 share/doc/HTML/uk/kcontrol/paths/paths.png
@@ -1000,6 +1006,8 @@ share/kcmmouse/pics/mouse_lh.png
 share/kcmmouse/pics/mouse_rh.png
 share/kcmsolidactions/solid-action-template.desktop
 share/kconf_update/krdb_libpathwipe.upd
+share/kconf_update/ksmserver_update_loginMode_value.py
+share/kconf_update/ksmserver_update_loginMode_value.upd
 share/kcontrol/pics/logo.png
 share/kcontrol/pics/mini-world.png
 share/kdisplay/app-defaults/AAAAAAGeneral.ad
@@ -1180,8 +1188,6 @@ share/config.kcfg/workspaceoptions_plasmasettings.kcfg
 share/doc/HTML/en/kcontrol/notifications/index.cache.bz2
 share/doc/HTML/en/kcontrol/notifications/index.docbook
 share/kconf_update/icons_remove_effects.upd
-share/knsrcfiles/cgcgtk3.knsrc
-share/knsrcfiles/cgctheme.knsrc
 share/kpackage/kcms/kcm_baloofile/contents/ui/main.qml
 share/kpackage/kcms/kcm_baloofile/metadata.desktop
 share/kpackage/kcms/kcm_baloofile/metadata.json
@@ -1191,6 +1197,8 @@ share/kpackage/kcms/kcm_style/contents/ui/main.qml
 share/kpackage/kcms/kcm_style/metadata.desktop
 share/kpackage/kcms/kcm_style/metadata.json
 share/kservices5/kcm_style.desktop
+share/knsrcfiles/gtk2_themes.knsrc
+share/knsrcfiles/gtk3_themes.knsrc
 share/locale/af/LC_MESSAGES/kaccess.mo
 share/locale/af/LC_MESSAGES/kcm5_componentchooser.mo
 share/locale/af/LC_MESSAGES/kcm5_icons.mo
@@ -2912,6 +2920,7 @@ share/locale/ja/LC_MESSAGES/kcmsmserver.mo
 share/locale/ja/LC_MESSAGES/kfontinst.mo
 share/locale/ja/LC_MESSAGES/knetattach5.mo
 share/locale/ja/LC_MESSAGES/krdb.mo
+share/locale/ja/LC_MESSAGES/org.kde.plasma.emojier.mo
 share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.desktopcontainment.mo
 share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.kimpanel.mo
 share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.panel.mo
@@ -3078,6 +3087,7 @@ share/locale/ko/LC_MESSAGES/kcmsmserver.mo
 share/locale/ko/LC_MESSAGES/kfontinst.mo
 share/locale/ko/LC_MESSAGES/knetattach5.mo
 share/locale/ko/LC_MESSAGES/krdb.mo
+share/locale/ko/LC_MESSAGES/org.kde.plasma.emojier.mo
 share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.desktopcontainment.mo
 share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.kimpanel.mo
 share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.panel.mo
